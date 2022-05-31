@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\ManageCinema.csproj": {}
+    "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\ManageCinema.csproj": {}
   },
   "projects": {
-    "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\ManageCinema.csproj": {
+    "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\ManageCinema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
+        "projectUniqueName": "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
         "projectName": "ManageCinema",
-        "projectPath": "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
+        "projectPath": "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\obj\\",
+        "outputPath": "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.3.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [

@@ -1,3 +1,5 @@
+using ManageCinema.Admin;
+
 namespace ManageCinema
 {
     internal static class Program
@@ -11,7 +13,8 @@ namespace ManageCinema
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(Form_Store.homePage);
+            Application.Run(new DashBoardAdmin());
+            //Application.Run(Form_Store.homePage);
         }
     }
 }

@@ -73,7 +73,7 @@
             this.pnlNavigate.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.pnlNavigate.Location = new System.Drawing.Point(0, 205);
             this.pnlNavigate.Name = "pnlNavigate";
-            this.pnlNavigate.Size = new System.Drawing.Size(10, 113);
+            this.pnlNavigate.Size = new System.Drawing.Size(2, 50);
             this.pnlNavigate.TabIndex = 5;
             // 
             // btnSettings

@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "OgY1m7dXyqQi7saqEZlVFuC0LYPWbQpO9P3Npp4D/ievgTnMHFqjg7n3mXSl9s4b9e7zuLxqlQqtOTfJMGQiYQ==",
+  "dgSpecHash": "+nz9A+aDxf4JpetKH+XTkzc0L60Ir+zipqp9Dy7oyGgMLq+hEolY5hdbuhJIBy3NyjtaH0QHHEtwZVKu78Foyw==",
   "success": true,
-  "projectFilePath": "D:\\Long\\NMCNPM\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
+  "projectFilePath": "D:\\Long\\NMCNPM\\Code\\NMCNPM--Cinema---C-\\ManageCinema\\ManageCinema\\ManageCinema.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.2\\guna.ui2.winforms.2.0.3.2.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.2\\guna.ui2.winforms.2.0.3.2.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": [
     {
