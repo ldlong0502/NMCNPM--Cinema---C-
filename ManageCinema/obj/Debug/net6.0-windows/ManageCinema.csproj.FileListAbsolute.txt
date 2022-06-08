@@ -55,3 +55,4 @@ D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ref\ManageCinema.dll
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.MovieUC.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.GenreUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.FormatMovieUC.resources

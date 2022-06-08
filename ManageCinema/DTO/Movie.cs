@@ -35,7 +35,7 @@ namespace ManageCinema.DTO
             this.Time = float.Parse(row["ThoiLuong"].ToString());
             this.StartDate = (DateTime)row["NgayKhoiChieu"];
             this.EndDate = (DateTime)row["NgayKetThuc"];
-            this.Country = row["SanXuat"].ToString();
+            this.Country = row["NuocSanXuat"].ToString();
             this.Director = row["DaoDien"].ToString();
             this.Actor = row["DienVien"].ToString();
             this.YearProduction = (int)row["NamSanXuat"];

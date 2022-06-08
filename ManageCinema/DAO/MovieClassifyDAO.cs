@@ -32,7 +32,6 @@ namespace ManageCinema.DAO
         }
 
         public static void UpdateMovie_Genre(string movieID, List<Genre> genreList)
-        //Idea : Delete all rows that contain movieID, then re-add all genre that have been chosen from CheckedListBox to 'PhanLoaiPhim' with movieID
         {
             DataProvider.Instance.ExecuteNonQuery("DELETE dbo.PhanLoaiPhim WHERE idPhim = '" + movieID + "'");
             foreach (Genre item in genreList)

@@ -7,6 +7,9 @@
     <Compile Update="Admin\DataUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Admin\FormatMovieUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Admin\GenreUC.cs">
       <SubType>UserControl</SubType>
     </Compile>

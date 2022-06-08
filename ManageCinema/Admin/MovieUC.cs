@@ -166,5 +166,89 @@ namespace ManageCinema.Admin
                 return;
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string movieID = txtMovieID.Text;
+            DeleteMovie(movieID);
+            LoadMovieList();
+        }
+
+        private void DeleteMovie(string id)
+        {
+            try
+            {
+                if (MovieDAO.DeleteMovie(id))
+                {
+                    MessageBox.Show("Xóa phim thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Xóa phim thất bại");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString()); 
+            }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string movieID = txtMovieID.Text;
+            string movieName = txtMovieName.Text;
+            string movieDesc = txtDescripe.Text;
+            float movieLength = float.Parse(txtMovieLength.Text);
+            DateTime startDate = dtpDayStart.Value;
+            DateTime endDate = dtpDayEnd.Value;
+            string nation = txtNation.Text;
+            string director = txtDirector.Text;
+            string actor = txtActor.Text;
+            int year = int.Parse(txtYear.Text);
+            if (picFilm.Image == null)
+            {
+                MessageBox.Show("Mời bạn thêm hình ảnh cho phim trước");
+                return;
+            }
+            UpdateMovie(movieID, movieName, movieDesc, movieLength, startDate, endDate, nation, director, actor, year, MovieDAO.imageToByteArray(picFilm.Image));
+            UpdateMovie_Genre(movieID, clbGenre);
+            LoadMovieList();
+        }
+
+        private void UpdateMovie_Genre(string movieID, CheckedListBox clbGenre)
+        {
+            try
+            {
+                List<Genre> checkedGenreList = new List<Genre>();
+                foreach (Genre checkedItem in clbGenre.CheckedItems)
+                {
+                    checkedGenreList.Add(checkedItem);
+                }
+                MovieClassifyDAO.UpdateMovie_Genre(movieID, checkedGenreList);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "error");
+            }
+        }
+
+        private void UpdateMovie(string id, string name, string desc, float length, DateTime startDate, DateTime endDate, string nation, string director, string actor, int year, byte[] image)
+        {
+            try
+            {
+                if (MovieDAO.UpdateMovie(id, name, desc, length, startDate, endDate, nation, director, actor, year, image))
+                {
+                    MessageBox.Show("Sửa phim thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Sửa phim thất bại");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "error");
+            }
+        }
     }
 }

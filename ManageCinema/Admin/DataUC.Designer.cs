@@ -32,7 +32,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnFormatMovie = new Guna.UI2.WinForms.Guna2Button();
             this.btnMovie = new Guna.UI2.WinForms.Guna2Button();
             this.btnType = new Guna.UI2.WinForms.Guna2Button();
             this.btnRoom_Cinema = new Guna.UI2.WinForms.Guna2Button();
@@ -59,7 +59,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel3.Controls.Add(this.guna2Button6);
             this.panel3.Controls.Add(this.guna2Button5);
-            this.panel3.Controls.Add(this.guna2Button4);
+            this.panel3.Controls.Add(this.btnFormatMovie);
             this.panel3.Controls.Add(this.btnMovie);
             this.panel3.Controls.Add(this.btnType);
             this.panel3.Controls.Add(this.btnRoom_Cinema);
@@ -118,29 +118,30 @@
             this.guna2Button5.Text = "Lịch Chiếu";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button4
+            // btnFormatMovie
             // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.White;
-            this.guna2Button4.BorderRadius = 2;
-            this.guna2Button4.BorderThickness = 1;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button4.Image = global::ManageCinema.Properties.Resources.format;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button4.Location = new System.Drawing.Point(0, 224);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(201, 56);
-            this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "Định Dạng";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFormatMovie.BackColor = System.Drawing.Color.Transparent;
+            this.btnFormatMovie.BorderColor = System.Drawing.Color.White;
+            this.btnFormatMovie.BorderRadius = 2;
+            this.btnFormatMovie.BorderThickness = 1;
+            this.btnFormatMovie.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFormatMovie.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFormatMovie.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFormatMovie.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFormatMovie.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFormatMovie.FillColor = System.Drawing.Color.Transparent;
+            this.btnFormatMovie.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnFormatMovie.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnFormatMovie.Image = global::ManageCinema.Properties.Resources.format;
+            this.btnFormatMovie.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnFormatMovie.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnFormatMovie.Location = new System.Drawing.Point(0, 224);
+            this.btnFormatMovie.Name = "btnFormatMovie";
+            this.btnFormatMovie.Size = new System.Drawing.Size(201, 56);
+            this.btnFormatMovie.TabIndex = 4;
+            this.btnFormatMovie.Text = "Định Dạng";
+            this.btnFormatMovie.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFormatMovie.Click += new System.EventHandler(this.btnFormatMovie_Click);
             // 
             // btnMovie
             // 
@@ -239,6 +240,7 @@
             this.btnTypeScreen.TabIndex = 0;
             this.btnTypeScreen.Text = "Loại Màn Hình";
             this.btnTypeScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTypeScreen.Click += new System.EventHandler(this.btnTypeScreen_Click);
             // 
             // panel2
             // 
@@ -284,7 +286,7 @@
         private Panel panel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnFormatMovie;
         private Guna.UI2.WinForms.Guna2Button btnMovie;
         private Guna.UI2.WinForms.Guna2Button btnType;
         private Guna.UI2.WinForms.Guna2Button btnRoom_Cinema;

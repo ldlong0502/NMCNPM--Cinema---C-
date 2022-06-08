@@ -133,7 +133,7 @@
             this.lblYear.AutoSize = true;
             this.lblYear.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblYear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblYear.Location = new System.Drawing.Point(718, 315);
+            this.lblYear.Location = new System.Drawing.Point(718, 320);
             this.lblYear.Name = "lblYear";
             this.lblYear.Size = new System.Drawing.Size(106, 19);
             this.lblYear.TabIndex = 24;
@@ -188,7 +188,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(718, 274);
+            this.label9.Location = new System.Drawing.Point(718, 278);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(79, 19);
             this.label9.TabIndex = 18;
@@ -312,6 +312,7 @@
             this.txtMovieID.Name = "txtMovieID";
             this.txtMovieID.Size = new System.Drawing.Size(158, 27);
             this.txtMovieID.TabIndex = 3;
+            this.txtMovieID.TextChanged += new System.EventHandler(this.txtMovieID_TextChanged);
             // 
             // lblMovieID
             // 
@@ -365,6 +366,7 @@
             this.btnDelete.TabIndex = 21;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -375,6 +377,7 @@
             this.btnUpdate.TabIndex = 20;
             this.btnUpdate.Text = "Sửa";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnInsert
             // 

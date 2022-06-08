@@ -76,7 +76,57 @@ namespace ManageCinema.Admin
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            string GenreID = txtGenreID.Text;
+            string GenreName = txtGenreName.Text;
+            string GenreDesc = txtGenreDescripe.Text;
+            UpdateGenre(GenreID, GenreName, GenreDesc);
+            LoadGenreList();
+        }
 
+        private void UpdateGenre(string id, string name, string desc)
+        {
+            try
+            {
+                if (GenreDAO.UpdateGenre(id, name, desc))
+                {
+                    MessageBox.Show("Sửa thể loại thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Sửa thể loại thất bại");
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error");
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string GenreID = txtGenreID.Text;
+            DeleteGenre(GenreID);
+            LoadGenreList();
+        }
+
+        private void DeleteGenre(string id)
+        {
+            try
+            {
+                if (GenreDAO.DeleteGenre(id))
+                {
+                    MessageBox.Show("Xóa thể loại thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Xóa thể loại thất bại");
+                }
+
+            }
+            catch( Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error");
+            }
         }
     }
 }

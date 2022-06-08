@@ -38,5 +38,17 @@ namespace ManageCinema.Admin
             pnlData.Controls.Clear();
             pnlData.Controls.Add(new GenreUC());
         }
+
+        private void btnTypeScreen_Click(object sender, EventArgs e)
+        {
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new TypeScreenUC());
+        }
+
+        private void btnFormatMovie_Click(object sender, EventArgs e)
+        {
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new FormatMovieUC());
+        }
     }
 }

@@ -60,9 +60,9 @@ namespace ManageCinema.DAO
             return result > 0;
         }
 
-        public static bool UpdateMovie(string id, string name, string desc, float length, DateTime startDate, DateTime endDate, string productor, string director,string actor, int year, byte[] image)
+        public static bool UpdateMovie(string id, string name, string desc, float length, DateTime startDate, DateTime endDate, string nation, string director,string actor, int year, byte[] image)
         {
-            int result = DataProvider.Instance.ExecuteNonQuery("EXEC USP_UpdateMovie @id , @tenPhim , @moTa , @thoiLuong , @ngayKhoiChieu , @ngayKetThuc , @sanXuat , @daoDien , @namSX , @apPhich ", new object[] { id, name, desc, length, startDate, endDate, productor, director,actor, year, image });
+            int result = DataProvider.Instance.ExecuteNonQuery("EXEC USP_UpdateMovie @id , @tenPhim , @moTa , @thoiLuong , @ngayKhoiChieu , @ngayKetThuc , @sanXuat , @daoDien , @dienVien , @namSX , @apPhich ", new object[] { id, name, desc, length, startDate, endDate, nation, director, actor, year, image });
             return result > 0;
         }
 
