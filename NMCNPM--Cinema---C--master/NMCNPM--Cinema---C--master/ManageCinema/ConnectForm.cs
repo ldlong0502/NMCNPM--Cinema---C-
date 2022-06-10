@@ -69,6 +69,7 @@ namespace ManageCinema
             if (result)
             {
                 MessageBox.Show("KẾT NỐI THÀNH CÔNG", "THÔNG BÁO");
+                this.Close();
             }
             else
                 MessageBox.Show("KẾT NỐI THẤT BẠI", "THÔNG BÁO");

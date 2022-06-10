@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Admin\AccountUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Admin\CustomerUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Admin\DashBoardAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +20,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin\MovieUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Admin\StaffUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin\TypeScreenUC.cs">
@@ -35,6 +44,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MovieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Test.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

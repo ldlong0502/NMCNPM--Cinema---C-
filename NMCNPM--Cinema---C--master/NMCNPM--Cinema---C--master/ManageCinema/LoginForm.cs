@@ -31,7 +31,7 @@ namespace ManageCinema
             if (result == 1)
             {
                 Account loginAccount = AccountDAO.GetAccountByUserName(userName);
-                MovieForm frm = new MovieForm();
+                Test frm = new Test();
                 this.Hide();
                 frm.ShowDialog();
                 this.Show();

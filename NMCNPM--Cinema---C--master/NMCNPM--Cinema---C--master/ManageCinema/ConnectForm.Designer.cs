@@ -116,6 +116,7 @@
             this.Controls.Add(this.txtServerName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ConnectForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConnectForm";
             this.ResumeLayout(false);
             this.PerformLayout();

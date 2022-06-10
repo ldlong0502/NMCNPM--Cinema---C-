@@ -92,5 +92,8 @@ C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master
 C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.genruntimeconfig.cache
 C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ref\ManageCinema.dll
 C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.LoginForm.resources
-C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.LoginForm - Copy.resources
 C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.ConnectForm.resources
+C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.StaffUC.resources
+C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Test.resources
+C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.CustomerUC.resources
+C:\Users\Admin\Desktop\New\NMCNPM--Cinema---C--master\NMCNPM--Cinema---C--master\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.AccountUser.resources
