@@ -16,6 +16,15 @@
     <Compile Update="Admin\MovieUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Admin\RoomCinemaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Admin\ShowTimesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Admin\TicketUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Admin\TypeScreenUC.cs">
       <SubType>UserControl</SubType>
     </Compile>

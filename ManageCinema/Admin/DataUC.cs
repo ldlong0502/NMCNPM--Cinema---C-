@@ -50,5 +50,23 @@ namespace ManageCinema.Admin
             pnlData.Controls.Clear();
             pnlData.Controls.Add(new FormatMovieUC());
         }
+
+        private void btnRoom_Cinema_Click(object sender, EventArgs e)
+        {
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new RoomCinemaUC());
+        }
+
+        private void btnShowTimes_Click(object sender, EventArgs e)
+        {
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new ShowTimesUC());
+        }
+
+        private void btnTicket_Click(object sender, EventArgs e)
+        {
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new TicketUC());
+        }
     }
 }

@@ -30,8 +30,8 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTicket = new Guna.UI2.WinForms.Guna2Button();
+            this.btnShowTimes = new Guna.UI2.WinForms.Guna2Button();
             this.btnFormatMovie = new Guna.UI2.WinForms.Guna2Button();
             this.btnMovie = new Guna.UI2.WinForms.Guna2Button();
             this.btnType = new Guna.UI2.WinForms.Guna2Button();
@@ -57,8 +57,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel3.Controls.Add(this.guna2Button6);
-            this.panel3.Controls.Add(this.guna2Button5);
+            this.panel3.Controls.Add(this.btnTicket);
+            this.panel3.Controls.Add(this.btnShowTimes);
             this.panel3.Controls.Add(this.btnFormatMovie);
             this.panel3.Controls.Add(this.btnMovie);
             this.panel3.Controls.Add(this.btnType);
@@ -70,53 +70,55 @@
             this.panel3.Size = new System.Drawing.Size(201, 559);
             this.panel3.TabIndex = 3;
             // 
-            // guna2Button6
+            // btnTicket
             // 
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderColor = System.Drawing.Color.White;
-            this.guna2Button6.BorderRadius = 2;
-            this.guna2Button6.BorderThickness = 1;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button6.Image = global::ManageCinema.Properties.Resources.ticket;
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button6.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button6.Location = new System.Drawing.Point(0, 336);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(201, 56);
-            this.guna2Button6.TabIndex = 6;
-            this.guna2Button6.Text = "Vé";
-            this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTicket.BackColor = System.Drawing.Color.Transparent;
+            this.btnTicket.BorderColor = System.Drawing.Color.White;
+            this.btnTicket.BorderRadius = 2;
+            this.btnTicket.BorderThickness = 1;
+            this.btnTicket.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTicket.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTicket.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTicket.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTicket.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTicket.FillColor = System.Drawing.Color.Transparent;
+            this.btnTicket.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTicket.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnTicket.Image = global::ManageCinema.Properties.Resources.ticket;
+            this.btnTicket.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnTicket.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTicket.Location = new System.Drawing.Point(0, 336);
+            this.btnTicket.Name = "btnTicket";
+            this.btnTicket.Size = new System.Drawing.Size(201, 56);
+            this.btnTicket.TabIndex = 6;
+            this.btnTicket.Text = "Vé";
+            this.btnTicket.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
             // 
-            // guna2Button5
+            // btnShowTimes
             // 
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderColor = System.Drawing.Color.White;
-            this.guna2Button5.BorderRadius = 2;
-            this.guna2Button5.BorderThickness = 1;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button5.Image = global::ManageCinema.Properties.Resources.showtime;
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button5.Location = new System.Drawing.Point(0, 280);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(201, 56);
-            this.guna2Button5.TabIndex = 5;
-            this.guna2Button5.Text = "Lịch Chiếu";
-            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnShowTimes.BackColor = System.Drawing.Color.Transparent;
+            this.btnShowTimes.BorderColor = System.Drawing.Color.White;
+            this.btnShowTimes.BorderRadius = 2;
+            this.btnShowTimes.BorderThickness = 1;
+            this.btnShowTimes.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnShowTimes.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnShowTimes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnShowTimes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnShowTimes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnShowTimes.FillColor = System.Drawing.Color.Transparent;
+            this.btnShowTimes.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnShowTimes.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnShowTimes.Image = global::ManageCinema.Properties.Resources.showtime;
+            this.btnShowTimes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnShowTimes.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnShowTimes.Location = new System.Drawing.Point(0, 280);
+            this.btnShowTimes.Name = "btnShowTimes";
+            this.btnShowTimes.Size = new System.Drawing.Size(201, 56);
+            this.btnShowTimes.TabIndex = 5;
+            this.btnShowTimes.Text = "Lịch Chiếu";
+            this.btnShowTimes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnShowTimes.Click += new System.EventHandler(this.btnShowTimes_Click);
             // 
             // btnFormatMovie
             // 
@@ -216,6 +218,7 @@
             this.btnRoom_Cinema.TabIndex = 1;
             this.btnRoom_Cinema.Text = "Phòng Chiếu";
             this.btnRoom_Cinema.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnRoom_Cinema.Click += new System.EventHandler(this.btnRoom_Cinema_Click);
             // 
             // btnTypeScreen
             // 
@@ -284,8 +287,8 @@
         private Panel pnlData;
         private Panel panel2;
         private Panel panel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button btnTicket;
+        private Guna.UI2.WinForms.Guna2Button btnShowTimes;
         private Guna.UI2.WinForms.Guna2Button btnFormatMovie;
         private Guna.UI2.WinForms.Guna2Button btnMovie;
         private Guna.UI2.WinForms.Guna2Button btnType;

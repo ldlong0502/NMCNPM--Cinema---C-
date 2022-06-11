@@ -360,7 +360,7 @@
             // btnDelete
             // 
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDelete.Location = new System.Drawing.Point(356, 10);
+            this.btnDelete.Location = new System.Drawing.Point(633, 10);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(76, 35);
             this.btnDelete.TabIndex = 21;
@@ -371,7 +371,7 @@
             // btnUpdate
             // 
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUpdate.Location = new System.Drawing.Point(249, 10);
+            this.btnUpdate.Location = new System.Drawing.Point(526, 10);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(76, 35);
             this.btnUpdate.TabIndex = 20;
@@ -382,7 +382,7 @@
             // btnInsert
             // 
             this.btnInsert.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnInsert.Location = new System.Drawing.Point(130, 10);
+            this.btnInsert.Location = new System.Drawing.Point(407, 10);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(76, 35);
             this.btnInsert.TabIndex = 19;
@@ -393,7 +393,7 @@
             // btnSee
             // 
             this.btnSee.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSee.Location = new System.Drawing.Point(21, 10);
+            this.btnSee.Location = new System.Drawing.Point(298, 10);
             this.btnSee.Name = "btnSee";
             this.btnSee.Size = new System.Drawing.Size(76, 35);
             this.btnSee.TabIndex = 18;

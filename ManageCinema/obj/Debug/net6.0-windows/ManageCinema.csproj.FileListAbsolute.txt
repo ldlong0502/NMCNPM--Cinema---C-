@@ -56,3 +56,6 @@ D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.MovieUC.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.GenreUC.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.FormatMovieUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.ShowTimesUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.RoomCinemaUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.TicketUC.resources

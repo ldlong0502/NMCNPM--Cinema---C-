@@ -29,29 +29,31 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbxScreenID = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtScreenName = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbxMovieID = new System.Windows.Forms.ComboBox();
+            this.lblGenreName = new System.Windows.Forms.Label();
+            this.lblDescripe = new System.Windows.Forms.Label();
+            this.txtMovieName = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnSee = new System.Windows.Forms.Button();
-            this.lblDescripe = new System.Windows.Forms.Label();
-            this.lblGenreName = new System.Windows.Forms.Label();
             this.txtFormatID = new System.Windows.Forms.TextBox();
             this.lblGenreID = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.dtgvFormatMovie = new System.Windows.Forms.DataGridView();
-            this.txtMovieName = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtScreenName = new System.Windows.Forms.TextBox();
-            this.cbxMovieID = new System.Windows.Forms.ComboBox();
-            this.cbxScreenID = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvFormatMovie)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvFormatMovie)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,126 +70,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1050, 292);
+            this.panel1.Size = new System.Drawing.Size(1050, 291);
             this.panel1.TabIndex = 2;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(640, 231);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(76, 35);
-            this.btnDelete.TabIndex = 17;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(533, 231);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(76, 35);
-            this.btnUpdate.TabIndex = 16;
-            this.btnUpdate.Text = "Sửa";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            // 
-            // btnInsert
-            // 
-            this.btnInsert.Location = new System.Drawing.Point(414, 231);
-            this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(76, 35);
-            this.btnInsert.TabIndex = 15;
-            this.btnInsert.Text = "Thêm";
-            this.btnInsert.UseVisualStyleBackColor = true;
-            // 
-            // btnSee
-            // 
-            this.btnSee.Location = new System.Drawing.Point(305, 231);
-            this.btnSee.Name = "btnSee";
-            this.btnSee.Size = new System.Drawing.Size(76, 35);
-            this.btnSee.TabIndex = 14;
-            this.btnSee.Text = "Xem";
-            this.btnSee.UseVisualStyleBackColor = true;
-            // 
-            // lblDescripe
-            // 
-            this.lblDescripe.AutoSize = true;
-            this.lblDescripe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDescripe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblDescripe.Location = new System.Drawing.Point(6, 80);
-            this.lblDescripe.Name = "lblDescripe";
-            this.lblDescripe.Size = new System.Drawing.Size(78, 19);
-            this.lblDescripe.TabIndex = 12;
-            this.lblDescripe.Text = "Tên phim";
-            // 
-            // lblGenreName
-            // 
-            this.lblGenreName.AutoSize = true;
-            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblGenreName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblGenreName.Location = new System.Drawing.Point(6, 36);
-            this.lblGenreName.Name = "lblGenreName";
-            this.lblGenreName.Size = new System.Drawing.Size(75, 19);
-            this.lblGenreName.TabIndex = 10;
-            this.lblGenreName.Text = "Mã phim";
-            // 
-            // txtFormatID
-            // 
-            this.txtFormatID.Location = new System.Drawing.Point(414, 36);
-            this.txtFormatID.Name = "txtFormatID";
-            this.txtFormatID.Size = new System.Drawing.Size(302, 27);
-            this.txtFormatID.TabIndex = 9;
-            // 
-            // lblGenreID
-            // 
-            this.lblGenreID.AutoSize = true;
-            this.lblGenreID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblGenreID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblGenreID.Location = new System.Drawing.Point(281, 40);
-            this.lblGenreID.Name = "lblGenreID";
-            this.lblGenreID.Size = new System.Drawing.Size(109, 19);
-            this.lblGenreID.TabIndex = 8;
-            this.lblGenreID.Text = "Mã định dạng";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.dtgvFormatMovie);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1050, 684);
-            this.panel2.TabIndex = 3;
-            // 
-            // dtgvFormatMovie
-            // 
-            this.dtgvFormatMovie.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvFormatMovie.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgvFormatMovie.Location = new System.Drawing.Point(0, 0);
-            this.dtgvFormatMovie.Name = "dtgvFormatMovie";
-            this.dtgvFormatMovie.ReadOnly = true;
-            this.dtgvFormatMovie.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtgvFormatMovie.RowHeadersWidth = 51;
-            this.dtgvFormatMovie.RowTemplate.Height = 29;
-            this.dtgvFormatMovie.Size = new System.Drawing.Size(1050, 684);
-            this.dtgvFormatMovie.TabIndex = 0;
-            // 
-            // txtMovieName
-            // 
-            this.txtMovieName.Location = new System.Drawing.Point(115, 72);
-            this.txtMovieName.Name = "txtMovieName";
-            this.txtMovieName.Size = new System.Drawing.Size(302, 27);
-            this.txtMovieName.TabIndex = 18;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.cbxMovieID);
-            this.groupBox1.Controls.Add(this.lblGenreName);
-            this.groupBox1.Controls.Add(this.lblDescripe);
-            this.groupBox1.Controls.Add(this.txtMovieName);
-            this.groupBox1.Location = new System.Drawing.Point(17, 81);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(473, 125);
-            this.groupBox1.TabIndex = 23;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Phim";
             // 
             // groupBox2
             // 
@@ -201,6 +85,15 @@
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Màn hình";
+            // 
+            // cbxScreenID
+            // 
+            this.cbxScreenID.FormattingEnabled = true;
+            this.cbxScreenID.Location = new System.Drawing.Point(128, 32);
+            this.cbxScreenID.Name = "cbxScreenID";
+            this.cbxScreenID.Size = new System.Drawing.Size(299, 28);
+            this.cbxScreenID.TabIndex = 20;
+            this.cbxScreenID.SelectedValueChanged += new System.EventHandler(this.cbxScreenID_SelectedValueChanged);
             // 
             // label1
             // 
@@ -232,6 +125,19 @@
             this.txtScreenName.Size = new System.Drawing.Size(300, 27);
             this.txtScreenName.TabIndex = 18;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.cbxMovieID);
+            this.groupBox1.Controls.Add(this.lblGenreName);
+            this.groupBox1.Controls.Add(this.lblDescripe);
+            this.groupBox1.Controls.Add(this.txtMovieName);
+            this.groupBox1.Location = new System.Drawing.Point(17, 81);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(473, 125);
+            this.groupBox1.TabIndex = 23;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Phim";
+            // 
             // cbxMovieID
             // 
             this.cbxMovieID.FormattingEnabled = true;
@@ -239,14 +145,125 @@
             this.cbxMovieID.Name = "cbxMovieID";
             this.cbxMovieID.Size = new System.Drawing.Size(299, 28);
             this.cbxMovieID.TabIndex = 19;
+            this.cbxMovieID.SelectedValueChanged += new System.EventHandler(this.cbxMovieID_SelectedValueChanged);
             // 
-            // cbxScreenID
+            // lblGenreName
             // 
-            this.cbxScreenID.FormattingEnabled = true;
-            this.cbxScreenID.Location = new System.Drawing.Point(128, 32);
-            this.cbxScreenID.Name = "cbxScreenID";
-            this.cbxScreenID.Size = new System.Drawing.Size(299, 28);
-            this.cbxScreenID.TabIndex = 20;
+            this.lblGenreName.AutoSize = true;
+            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGenreName.Location = new System.Drawing.Point(6, 36);
+            this.lblGenreName.Name = "lblGenreName";
+            this.lblGenreName.Size = new System.Drawing.Size(75, 19);
+            this.lblGenreName.TabIndex = 10;
+            this.lblGenreName.Text = "Mã phim";
+            // 
+            // lblDescripe
+            // 
+            this.lblDescripe.AutoSize = true;
+            this.lblDescripe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblDescripe.Location = new System.Drawing.Point(6, 80);
+            this.lblDescripe.Name = "lblDescripe";
+            this.lblDescripe.Size = new System.Drawing.Size(78, 19);
+            this.lblDescripe.TabIndex = 12;
+            this.lblDescripe.Text = "Tên phim";
+            // 
+            // txtMovieName
+            // 
+            this.txtMovieName.Location = new System.Drawing.Point(115, 72);
+            this.txtMovieName.Name = "txtMovieName";
+            this.txtMovieName.ReadOnly = true;
+            this.txtMovieName.Size = new System.Drawing.Size(302, 27);
+            this.txtMovieName.TabIndex = 18;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(640, 231);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(76, 35);
+            this.btnDelete.TabIndex = 17;
+            this.btnDelete.Text = "Xóa";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(533, 231);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(76, 35);
+            this.btnUpdate.TabIndex = 16;
+            this.btnUpdate.Text = "Sửa";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.Location = new System.Drawing.Point(414, 231);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(76, 35);
+            this.btnInsert.TabIndex = 15;
+            this.btnInsert.Text = "Thêm";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            // 
+            // btnSee
+            // 
+            this.btnSee.Location = new System.Drawing.Point(305, 231);
+            this.btnSee.Name = "btnSee";
+            this.btnSee.Size = new System.Drawing.Size(76, 35);
+            this.btnSee.TabIndex = 14;
+            this.btnSee.Text = "Xem";
+            this.btnSee.UseVisualStyleBackColor = true;
+            this.btnSee.Click += new System.EventHandler(this.btnSee_Click);
+            // 
+            // txtFormatID
+            // 
+            this.txtFormatID.Location = new System.Drawing.Point(414, 36);
+            this.txtFormatID.Name = "txtFormatID";
+            this.txtFormatID.Size = new System.Drawing.Size(302, 27);
+            this.txtFormatID.TabIndex = 9;
+            this.txtFormatID.TextChanged += new System.EventHandler(this.txtFormatID_TextChanged);
+            // 
+            // lblGenreID
+            // 
+            this.lblGenreID.AutoSize = true;
+            this.lblGenreID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGenreID.Location = new System.Drawing.Point(281, 40);
+            this.lblGenreID.Name = "lblGenreID";
+            this.lblGenreID.Size = new System.Drawing.Size(109, 19);
+            this.lblGenreID.TabIndex = 8;
+            this.lblGenreID.Text = "Mã định dạng";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1050, 684);
+            this.panel2.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.dtgvFormatMovie);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1050, 684);
+            this.panel3.TabIndex = 0;
+            // 
+            // dtgvFormatMovie
+            // 
+            this.dtgvFormatMovie.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvFormatMovie.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dtgvFormatMovie.Location = new System.Drawing.Point(0, 290);
+            this.dtgvFormatMovie.Name = "dtgvFormatMovie";
+            this.dtgvFormatMovie.RowHeadersWidth = 51;
+            this.dtgvFormatMovie.RowTemplate.Height = 29;
+            this.dtgvFormatMovie.Size = new System.Drawing.Size(1050, 394);
+            this.dtgvFormatMovie.TabIndex = 0;
             // 
             // FormatMovieUC
             // 
@@ -258,12 +275,13 @@
             this.Size = new System.Drawing.Size(1050, 684);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvFormatMovie)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvFormatMovie)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,6 +306,7 @@
         private TextBox txtFormatID;
         private Label lblGenreID;
         private Panel panel2;
+        private Panel panel3;
         private DataGridView dtgvFormatMovie;
     }
 }
