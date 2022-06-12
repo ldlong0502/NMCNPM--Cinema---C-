@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManageCinema.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,6 @@ namespace ManageCinema
     {
         public static HomePage homePage = new HomePage();
         public static MovieForm movieForm = new MovieForm();
+        public static DashBoardAdmin admin = new DashBoardAdmin();
     }
 }

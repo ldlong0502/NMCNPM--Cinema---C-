@@ -19,13 +19,31 @@ namespace ManageCinema.Admin
 
         private void pnlTask_Paint(object sender, PaintEventArgs e)
         {
-            pnlTask.Controls.Add(new DataUC());
+
         }
 
         private void BtnData_Click(object sender, EventArgs e)
         {
             pnlTask.Controls.Clear();
             pnlTask.Controls.Add(new DataUC());
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            pnlTask.Controls.Clear();
+            pnlTask.Controls.Add(new CustomerUC());
+        }
+
+        private void btnStaff_Click(object sender, EventArgs e)
+        {
+            pnlTask.Controls.Clear();
+            pnlTask.Controls.Add(new StaffUC());
+        }
+
+        private void btnAccount_Click(object sender, EventArgs e)
+        {
+            pnlTask.Controls.Clear();
+            pnlTask.Controls.Add(new AccountUser());
         }
     }
 }

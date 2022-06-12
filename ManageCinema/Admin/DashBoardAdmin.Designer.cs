@@ -71,6 +71,7 @@
             this.btnAccount.Size = new System.Drawing.Size(165, 56);
             this.btnAccount.TabIndex = 4;
             this.btnAccount.Text = "Tài Khoản";
+            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
             // 
             // btnStaff
             // 
@@ -91,6 +92,7 @@
             this.btnStaff.Size = new System.Drawing.Size(165, 56);
             this.btnStaff.TabIndex = 3;
             this.btnStaff.Text = "Nhân Viên";
+            this.btnStaff.Click += new System.EventHandler(this.btnStaff_Click);
             // 
             // btnCustomer
             // 
@@ -111,6 +113,7 @@
             this.btnCustomer.Size = new System.Drawing.Size(165, 56);
             this.btnCustomer.TabIndex = 2;
             this.btnCustomer.Text = "Khách Hàng";
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // BtnData
             // 

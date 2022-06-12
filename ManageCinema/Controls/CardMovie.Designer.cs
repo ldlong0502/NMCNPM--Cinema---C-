@@ -42,7 +42,7 @@
             this.ptrMovie.Image = global::ManageCinema.Properties.Resources._1;
             this.ptrMovie.Location = new System.Drawing.Point(0, 0);
             this.ptrMovie.Name = "ptrMovie";
-            this.ptrMovie.Size = new System.Drawing.Size(253, 233);
+            this.ptrMovie.Size = new System.Drawing.Size(212, 216);
             this.ptrMovie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptrMovie.TabIndex = 0;
             this.ptrMovie.TabStop = false;
@@ -51,9 +51,9 @@
             // 
             this.panel1.Controls.Add(this.btnMovie_name);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 233);
+            this.panel1.Location = new System.Drawing.Point(0, 216);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(253, 86);
+            this.panel1.Size = new System.Drawing.Size(212, 58);
             this.panel1.TabIndex = 3;
             // 
             // btnMovie_name
@@ -66,11 +66,11 @@
             this.btnMovie_name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMovie_name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMovie_name.FillColor = System.Drawing.Color.Transparent;
-            this.btnMovie_name.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMovie_name.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnMovie_name.ForeColor = System.Drawing.Color.White;
             this.btnMovie_name.Location = new System.Drawing.Point(0, 0);
             this.btnMovie_name.Name = "btnMovie_name";
-            this.btnMovie_name.Size = new System.Drawing.Size(253, 86);
+            this.btnMovie_name.Size = new System.Drawing.Size(212, 58);
             this.btnMovie_name.TabIndex = 0;
             this.btnMovie_name.Click += new System.EventHandler(this.btnMovie_name_Click);
             // 
@@ -82,7 +82,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ptrMovie);
             this.Name = "CardMovie";
-            this.Size = new System.Drawing.Size(253, 319);
+            this.Size = new System.Drawing.Size(212, 274);
             ((System.ComponentModel.ISupportInitialize)(this.ptrMovie)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

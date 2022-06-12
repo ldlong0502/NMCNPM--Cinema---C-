@@ -35,7 +35,7 @@ namespace ManageCinema.DTO
             if (row["TienBanVe"].ToString() == "")
                 this.Price = 0;
             else
-                this.Price = float.Parse(row["TienBanVe"].ToString());
+                this.Price = float.Parse(row["TienBanVe"].ToString()!);
         }
 
         public string? ID { get; set; }

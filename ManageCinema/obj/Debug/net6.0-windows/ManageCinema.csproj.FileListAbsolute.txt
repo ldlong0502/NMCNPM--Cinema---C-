@@ -59,3 +59,9 @@ D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.ShowTimesUC.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.RoomCinemaUC.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.TicketUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.AccountUser.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.CustomerUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.StaffUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.ConnectForm.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.LoginForm.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Test.resources

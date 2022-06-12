@@ -20,7 +20,30 @@ namespace ManageCinema.DAO
 
         private DataProvider() { }
 
-        private string connectionSTR = "Data Source=.\\sqlexpress;Initial Catalog=QuanLyRapPhim;Integrated Security=True";
+        private static string connectionSTR = "Data Source=.\\sqlexpress;Initial Catalog=QuanLyRapPhim;Integrated Security=True";
+
+
+
+        public static bool TestConnectionSQL(string conn)
+        {
+            bool result = false;
+            connectionSTR = conn;
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionSTR))
+                {
+                    connection.Open();
+                    result = true;
+                    connection.Close();
+                }
+            }
+            catch
+            {
+                return false;
+            }
+            return result;
+        }
+
         public DataTable ExecuteQuery(string query, object[]? parameter = null)
         {
             DataTable data = new DataTable();
