@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkmdg0L375R2Nlb+MneKF1is3oafTnkKWS+ZO/5Eicuw4OuE2C2oQHwZqCpwEdpf+PGd4ft447JuvktTzNtwzA==",
+  "dgSpecHash": "dsOq+dbPoWzpWwJ5ICPLaEk+671YlW1YMVQrjfDgRyAc3Qqad7OE+qs8Q35nHo4EgvgdJM2ZqUdrR7yT3nudiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.2\\guna.ui2.winforms.2.0.3.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

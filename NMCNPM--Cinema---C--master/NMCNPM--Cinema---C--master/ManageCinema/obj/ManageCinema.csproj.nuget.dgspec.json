@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj": {
+    "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
         "projectName": "ManageCinema",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\ManageCinema.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\New\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\cúng cuồi CNPM\\NMCNPM--Cinema---C--master\\NMCNPM--Cinema---C--master\\ManageCinema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
