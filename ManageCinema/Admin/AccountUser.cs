@@ -98,7 +98,7 @@ namespace ManageCinema.Admin
         {
             string username = txtUsername.Text;
             int accountType = (int)nudAccountType.Value;
-            string staffID = cboStaffID_Account.SelectedValue.ToString();
+            string staffID = cboStaffID_Account.SelectedValue.ToString()!;
             InsertAccount(username, accountType, staffID);
             LoadAccountList();
         }

@@ -35,12 +35,14 @@
             this.BtnData = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnAnalytics = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pnlTask = new System.Windows.Forms.Panel();
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
+            this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnAccount);
             this.panel1.Controls.Add(this.btnStaff);
             this.panel1.Controls.Add(this.btnCustomer);
@@ -155,6 +157,7 @@
             this.btnAnalytics.Size = new System.Drawing.Size(165, 56);
             this.btnAnalytics.TabIndex = 0;
             this.btnAnalytics.Text = "Thống Kê";
+            this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
             // 
             // pnlTask
             // 
@@ -163,7 +166,23 @@
             this.pnlTask.Name = "pnlTask";
             this.pnlTask.Size = new System.Drawing.Size(1251, 684);
             this.pnlTask.TabIndex = 1;
-            this.pnlTask.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTask_Paint);
+            // 
+            // btnClose
+            // 
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.FillColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.HoverState.FillColor = System.Drawing.Color.Silver;
+            this.btnClose.Location = new System.Drawing.Point(1200, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(48, 43);
+            this.btnClose.TabIndex = 18;
+            this.btnClose.Text = "X";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // DashBoardAdmin
             // 
@@ -190,5 +209,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton BtnData;
         private Guna.UI2.WinForms.Guna2GradientButton btnAnalytics;
         private Panel pnlTask;
+        private Guna.UI2.WinForms.Guna2Button btnClose;
     }
 }

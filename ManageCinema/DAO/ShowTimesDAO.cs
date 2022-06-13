@@ -74,5 +74,10 @@ namespace ManageCinema.DAO
             DataTable data = DataProvider.Instance.ExecuteQuery("EXEC USP_SearchShowtimeByMovieName @tenPhim ", new object[] { movieName });
             return data;
         }
+        public static DataTable SearchShowtimeByMovieNameOrdeyByShowtimesASC(string movieName)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("EXEC USP_SearchShowtimeByMovieNameOrderByASC @tenPhim ", new object[] { movieName });
+            return data;
+        }
     }
 }

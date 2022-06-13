@@ -40,7 +40,6 @@ namespace ManageCinema
                 {
                     Form_Store.homePage.ShowDialog();
                 }
-                this.Show();
             }
             else if (result == 0)
             {

@@ -1,17 +1,23 @@
+using ManageCinema.Controls;
+
 namespace ManageCinema
 {
     public partial class HomePage : Form
     {
+        MovieForStaffUC movieForStaffUC = new MovieForStaffUC();
         public HomePage()
         {
             InitializeComponent();
             ClickNavigateButton(btnMovie);
-
+            pnlScreen.Controls.Clear();
+            pnlScreen.Controls.Add(movieForStaffUC);
         }
 
         private void btnMovie_Click(object sender, EventArgs e)
         {
             ClickNavigateButton(btnMovie);
+            pnlScreen.Controls.Clear();
+            pnlScreen.Controls.Add(movieForStaffUC);
 
         }
         void ClickNavigateButton(Guna.UI2.WinForms.Guna2GradientButton btn)
@@ -46,14 +52,23 @@ namespace ManageCinema
             btnSettings.BackColor = Color.FromArgb(40, 42, 52);
         }
 
-        private void pnlScreen_Paint(object sender, PaintEventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            MovieForm objForm = new MovieForm();
-            objForm.TopLevel = false;
-            pnlScreen.Controls.Add(objForm);
-            objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            objForm.Dock = DockStyle.Fill;
-            objForm.Show();
+            this.Close();
+            Form_Store.homePage = new HomePage();
+            Form_Store.loginForm.Show();
+        }
+
+        private void btnShowTimes_Click(object sender, EventArgs e)
+        {
+            ClickNavigateButton(btnShowTimes);
+            pnlScreen.Controls.Clear();
+            pnlScreen.Controls.Add(new Controls.ShowTimesForStaffUC());
+        }
+
+        private void btnShowTimes_Leave(object sender, EventArgs e)
+        {
+            btnShowTimes.BackColor = Color.FromArgb(40, 42, 52);
         }
     }
 }

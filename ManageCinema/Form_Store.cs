@@ -1,4 +1,5 @@
 ﻿using ManageCinema.Admin;
+using ManageCinema.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace ManageCinema
     public class Form_Store
     {
         public static HomePage homePage = new HomePage();
-        public static MovieForm movieForm = new MovieForm();
         public static DashBoardAdmin admin = new DashBoardAdmin();
+        public static MovieShow movieShow = new MovieShow();
+        public static LoginForm loginForm = new LoginForm();
     }
 }

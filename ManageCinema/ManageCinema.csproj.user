@@ -4,6 +4,9 @@
     <Compile Update="Admin\AccountUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Admin\ChartUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Admin\CustomerUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -20,6 +23,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin\MovieUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Admin\RevenueUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin\RoomCinemaUC.cs">
@@ -40,19 +46,25 @@
     <Compile Update="ConnectForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Controls\CardInfoShowTimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Controls\CardMovie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\MovieForStaffUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Controls\MovieShow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Controls\ShowTimesForStaffUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="MovieForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Test.cs">

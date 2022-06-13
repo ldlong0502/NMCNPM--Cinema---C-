@@ -21,6 +21,18 @@ namespace ManageCinema.DAO
             }
             return genreList;
         }
+        public static List<String> GetListMovieIdByGenreId(string id)
+        {
+            List<String> listMovieID = new List<String>();
+            DataTable data = DataProvider.Instance.ExecuteQuery("EXEC USP_GetListMovieIdByGenreId @idGenre", new object[] { id });
+            foreach (DataRow item in data.Rows)
+            {
+                String? Movieid = item["idPhim"].ToString();
+                listMovieID.Add(Movieid!);
+            }
+            return listMovieID;
+        }
+
 
         public static void InsertMovie_Genre(string movieID, List<Genre> genreList)
         {

@@ -124,21 +124,21 @@ namespace ManageCinema.Admin
 
         private void DeleteShowtime(string showtimeID)
         {
-            //try
-            //{
-            //    if (ShowTimesDAO.DeleteShowtime(showtimeID))
-            //    {
-            //        MessageBox.Show("Xóa lịch chiếu thành công");
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Xóa lịch chiếu thất bại");
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show(ex.ToString());
-            //}
+            try
+            {
+                if (ShowTimesDAO.DeleteShowtime(showtimeID))
+                {
+                    MessageBox.Show("Xóa lịch chiếu thành công");
+                }
+                else
+                {
+                    MessageBox.Show("Xóa lịch chiếu thất bại");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void cbxFormatID_SelectedValueChanged(object sender, EventArgs e)

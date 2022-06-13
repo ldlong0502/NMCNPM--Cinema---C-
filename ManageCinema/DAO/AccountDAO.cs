@@ -16,9 +16,9 @@ namespace ManageCinema.DAO
             //tính năng bảo mật cho việc đăng nhập
             byte[] temp = ASCIIEncoding.ASCII.GetBytes(password);//chuyển qua mảng kiểu byte từ một chuỗi
 
-#pragma warning disable SYSLIB0021 // Type or member is obsolete
+            #pragma warning disable SYSLIB0021 // Type or member is obsolete
             byte[] hasData = new MD5CryptoServiceProvider().ComputeHash(temp);
-#pragma warning restore SYSLIB0021 // Type or member is obsolete
+            #pragma warning restore SYSLIB0021 // Type or member is obsolete
 
 
             //tạo ra bảng has(bảng băm) chứa các mảng byte

@@ -17,6 +17,7 @@ namespace ManageCinema.Controls
     {
         private string movie_name = "";
         private List<FormatMovie> format = new List<FormatMovie>();
+        private Movie movie = new Movie();
         private Image image = Image.FromFile(@"C:\Users\LENOVO\Pictures\ImageMovie\1.jpg");
         
         public string Movie_name { get { return movie_name; } set { movie_name = value; } }
@@ -26,11 +27,13 @@ namespace ManageCinema.Controls
         {
             get { return image; } set { image = value; } 
         }
-        public CardMovie(string movie_name , List<FormatMovie> listFormat, Image image)
+        public Movie Movie { get { return movie; } set { movie = value; } }
+        public CardMovie(string movie_name , List<FormatMovie> listFormat, Image image, Movie movie)
         {
             Movie_name = movie_name;
-            Format = format;
+            format = listFormat;
             Image = image;
+            Movie = movie;
             InitializeComponent();
             btnMovie_name.Text = Movie_name + "\n";
             foreach (FormatMovie format in listFormat)
@@ -42,9 +45,8 @@ namespace ManageCinema.Controls
 
         private void btnMovie_name_Click(object sender, EventArgs e)
         {
-            MovieShow moviePopUp = new MovieShow();
-            moviePopUp.Show();
-            Form_Store.homePage.Hide();
+            MovieShow moviePopUp = new MovieShow(movie,format,image);
+            moviePopUp.ShowDialog();
         }
     }
 }

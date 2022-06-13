@@ -15,11 +15,8 @@ namespace ManageCinema.Admin
         public DashBoardAdmin()
         {
             InitializeComponent();
-        }
-
-        private void pnlTask_Paint(object sender, PaintEventArgs e)
-        {
-
+            pnlTask.Controls.Clear();
+            pnlTask.Controls.Add(new RevenueUC());
         }
 
         private void BtnData_Click(object sender, EventArgs e)
@@ -44,6 +41,19 @@ namespace ManageCinema.Admin
         {
             pnlTask.Controls.Clear();
             pnlTask.Controls.Add(new AccountUser());
+        }
+
+        private void btnAnalytics_Click(object sender, EventArgs e)
+        {
+            pnlTask.Controls.Clear();
+            pnlTask.Controls.Add(new RevenueUC());
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form_Store.admin = new DashBoardAdmin();
+            Form_Store.loginForm.Show();
         }
     }
 }

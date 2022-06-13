@@ -15,6 +15,8 @@ namespace ManageCinema.Admin
         public DataUC()
         {
             InitializeComponent();
+            pnlData.Controls.Clear();
+            pnlData.Controls.Add(new TypeScreenUC());
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

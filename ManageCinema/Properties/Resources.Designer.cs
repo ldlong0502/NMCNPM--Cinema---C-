@@ -83,9 +83,9 @@ namespace ManageCinema.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _2d {
+        internal static System.Drawing.Bitmap _2D {
             get {
-                object obj = ResourceManager.GetObject("2d", resourceCulture);
+                object obj = ResourceManager.GetObject("2D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +96,16 @@ namespace ManageCinema.Properties {
         internal static System.Drawing.Bitmap _3781664 {
             get {
                 object obj = ResourceManager.GetObject("3781664", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D {
+            get {
+                object obj = ResourceManager.GetObject("3D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +246,16 @@ namespace ManageCinema.Properties {
         internal static System.Drawing.Bitmap format {
             get {
                 object obj = ResourceManager.GetObject("format", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMAX {
+            get {
+                object obj = ResourceManager.GetObject("IMAX", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

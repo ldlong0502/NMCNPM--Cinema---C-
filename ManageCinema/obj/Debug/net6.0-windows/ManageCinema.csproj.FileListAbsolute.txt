@@ -40,7 +40,6 @@ D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Controls.CardMovie.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Controls.MovieShow.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.HomePage.resources
-D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.MovieForm.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Properties.Resources.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.csproj.GenerateResource.cache
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.GeneratedMSBuildEditorConfig.editorconfig
@@ -65,3 +64,16 @@ D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.ConnectForm.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.LoginForm.resources
 D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Test.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.RevenueUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Controls.CardInfoShowTimes.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Controls.ShowTimesForStaffUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Controls.MovieForStaffUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\LiveCharts.WinForms.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\obj\Debug\net6.0-windows\ManageCinema.Admin.ChartUC.resources
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\Syncfusion.Chart.Base.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\Syncfusion.Chart.Windows.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\Syncfusion.Grouping.Base.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+D:\Long\NMCNPM\Code\NMCNPM--Cinema---C-\ManageCinema\ManageCinema\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll

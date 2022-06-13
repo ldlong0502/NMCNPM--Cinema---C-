@@ -45,6 +45,10 @@ namespace ManageCinema.DTO
                 this.Poster = (byte[])row["ApPhich"];
         }
 
+        public Movie()
+        {
+        }
+
         public string? ID { get; set; }
 
         public string? Name { get; set; }

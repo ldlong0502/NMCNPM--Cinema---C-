@@ -141,7 +141,8 @@
             // 
             // dtpDayEnd
             // 
-            this.dtpDayEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDayEnd.CustomFormat = "dd/MM/yyyy";
+            this.dtpDayEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDayEnd.Location = new System.Drawing.Point(827, 132);
             this.dtpDayEnd.Name = "dtpDayEnd";
             this.dtpDayEnd.Size = new System.Drawing.Size(158, 27);
@@ -149,7 +150,8 @@
             // 
             // dtpDayStart
             // 
-            this.dtpDayStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDayStart.CustomFormat = "dd/MM/yyyy";
+            this.dtpDayStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDayStart.Location = new System.Drawing.Point(829, 92);
             this.dtpDayStart.Name = "dtpDayStart";
             this.dtpDayStart.Size = new System.Drawing.Size(156, 27);

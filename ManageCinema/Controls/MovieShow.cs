@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ManageCinema.DAO;
+using ManageCinema.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,85 +15,82 @@ namespace ManageCinema.Controls
 {
     public partial class MovieShow : Form
     {
-        private string movie_name = "" ;
-        private string startTime = "";
-        private string style = "";
-        private string ani_style = "";
-        private string actor = "";
-        private string director = "";
-        private Image image = Image.FromFile(@"C:\Users\LENOVO\Pictures\ImageMovie\1.jpg");
-        private string trailer = "https://youtu.be/mq5Hn2vZ90w";
-        public string Movie_Name
-        {
-            get { return movie_name; }
-            set { movie_name = value; }
-        }
-        public string Movie_StartTime
-        {
-            get { return startTime; }   
-            set { startTime = value; }
-        }
-        public string Style
-        {
-            get { return style; }
-            set { style = value; }
-        }
-        public string Ani_Style
-        {
-            get { return ani_style; }
-            set { ani_style = value; }
-        }
-        public string Actor
-        {
-            get { return actor; }
-            set { actor = value; }
-        }
-        public string Director
-        {
-            get { return director; }
-            set { director = value; }
-        }
-        public Image Image
-        {
-            get { return image; }
-            set { image = value; }
-        }
-        public string Trailer
-        {
-            get { return trailer; }
-            set { trailer = value; }
-        }
+        
         public MovieShow()
         {
             InitializeComponent();
+            ptrFormat2.Visible = ptrFormat3.Visible = false;
         }
 
-        public MovieShow(string movie_Name, string movie_StartTime, string style, string ani_Style, string actor, string director, Image image, string trailer)
+        public MovieShow(Movie movie,List<FormatMovie> formats, Image image)
         {
             InitializeComponent();
-            Movie_Name = movie_Name;
-            Movie_StartTime = movie_StartTime;
-            Style = style;
-            Ani_Style = ani_Style;
-            Actor = actor;
-            Director = director;
-            Image = image;
-            Trailer = trailer;
+            ptrFormat2.Visible = ptrFormat3.Visible = false;
+            lblMovie_name.Text = movie.Name;
+            ptrMovie.Image = image;
+            lblActor.Text = movie.Actor;
+            lblDirector.Text = movie.Director;
+            lblDescription.Text = movie.Desc;
+            lblTime.Text = "Từ " + String.Format("{0:dd/MM/yyyy HH:mm:ss}", movie.StartDate).ToString().Split(' ')[0] + " đến " + String.Format("{0:dd/MM/yyyy HH:mm:ss}", movie.EndDate).ToString().Split(' ')[0];
+            List<Genre> listGenreOfMovie = MovieClassifyDAO.GetListGenreByMovieID(movie.ID!);
+            for(int i = 0; i < listGenreOfMovie.Count; i++)
+            {
+                if(i == listGenreOfMovie.Count - 1)
+                {
+                    lblGenre.Text += listGenreOfMovie[i].Name;
+                    break;
+                }
+                lblGenre.Text += listGenreOfMovie[i].Name + ", ";
+            }
+            if(formats.Count == 1)
+            {
+                if(formats[0].ScreenTypeName == "2D")
+                    ptrFormat1.Image = global::ManageCinema.Properties.Resources._2D;
+                else if (formats[0].ScreenTypeName == "3D")
+                    ptrFormat1.Image = global::ManageCinema.Properties.Resources._3D;
+                else ptrFormat1.Image = global::ManageCinema.Properties.Resources.IMAX;
+            }
+            else if(formats.Count == 2)
+            {
+                
+                if (formats[0].ScreenTypeName == "2D" && formats[1].ScreenTypeName == "3D")
+                {
+                    ptrFormat1.Image = global::ManageCinema.Properties.Resources._2D;
+                    ptrFormat2.Image = global::ManageCinema.Properties.Resources._3D;
+                    ptrFormat2.Visible = true;
+                }
+                else if (formats[0].ScreenTypeName == "3D" && formats[1].ScreenTypeName == "IMAX")
+                {
+                    ptrFormat1.Image = global::ManageCinema.Properties.Resources._2D;
+                    ptrFormat2.Image = global::ManageCinema.Properties.Resources._3D;
+                    ptrFormat2.Visible = true;
+                }
+                else 
+                {
+                    ptrFormat1.Image = global::ManageCinema.Properties.Resources._2D;
+                    ptrFormat2.Image = global::ManageCinema.Properties.Resources._3D;
+                    ptrFormat2.Visible = true;
+                }
+            }
+            else if(formats.Count == 3)
+            {
+                ptrFormat1.Image = global::ManageCinema.Properties.Resources._2D;
+                ptrFormat2.Image = global::ManageCinema.Properties.Resources._3D;
+                ptrFormat3.Image = global::ManageCinema.Properties.Resources.IMAX;
+                ptrFormat2.Visible = ptrFormat3.Visible = true;
+            }
+            
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Form_Store.homePage.Show();
             this.Close();
         }
 
         private void btnTrailer_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = Trailer,
-                UseShellExecute = true
-            });
+            CardInfoShowTimes showTimes = new CardInfoShowTimes(lblMovie_name.Text);
+            showTimes.ShowDialog();
         }
     }
 }

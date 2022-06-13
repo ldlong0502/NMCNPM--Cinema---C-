@@ -37,6 +37,17 @@ namespace ManageCinema.DAO
             return listMovie;
         }
 
+        public static List<Movie> GetListMovieByName(String movieName)
+        {
+            List<Movie> listMovie = new List<Movie>();
+            DataTable data = DataProvider.Instance.ExecuteQuery("EXEC USP_GetListMovieByName @tenPhim ", new object[] { movieName });
+            foreach (DataRow row in data.Rows)
+            {
+                Movie movie = new Movie(row);
+                listMovie.Add(movie);
+            }
+            return listMovie;
+        }
         public static List<Movie> GetListMovie()
         {
             List<Movie> listMovie = new List<Movie>();

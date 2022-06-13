@@ -14,6 +14,37 @@
           }
         }
       },
+      "LiveCharts/0.9.7": {
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "LiveCharts.WinForms/0.9.7.1": {
+        "dependencies": {
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "assemblyVersion": "0.9.7.1",
+            "fileVersion": "0.9.7.1"
+          }
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
@@ -72,6 +103,63 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "Syncfusion.Chart.Base/20.1.0.59": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.59",
+          "Syncfusion.Shared.Base": "20.1.0.59"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "assemblyVersion": "20.1500.0.59",
+            "fileVersion": "20.1500.0.59"
+          }
+        }
+      },
+      "Syncfusion.Chart.Windows/20.1.0.59": {
+        "dependencies": {
+          "Syncfusion.Chart.Base": "20.1.0.59",
+          "Syncfusion.Grouping.Base": "20.1.0.59",
+          "Syncfusion.Licensing": "20.1.0.59",
+          "Syncfusion.Shared.Base": "20.1.0.59"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "assemblyVersion": "20.1500.0.59",
+            "fileVersion": "20.1500.0.59"
+          }
+        }
+      },
+      "Syncfusion.Grouping.Base/20.1.0.59": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.59",
+          "Syncfusion.Shared.Base": "20.1.0.59"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "assemblyVersion": "20.1500.0.59",
+            "fileVersion": "20.1500.0.59"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.1.0.59": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.1.0.59",
+            "fileVersion": "20.1.0.59"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/20.1.0.59": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.1.0.59"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "20.1500.0.59",
+            "fileVersion": "20.1500.0.59"
           }
         }
       },
@@ -154,6 +242,27 @@
       "path": "guna.ui2.winforms/2.0.3.2",
       "hashPath": "guna.ui2.winforms.2.0.3.2.nupkg.sha512"
     },
+    "LiveCharts/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "path": "livecharts/0.9.7",
+      "hashPath": "livecharts.0.9.7.nupkg.sha512"
+    },
+    "LiveCharts.WinForms/0.9.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eCBsVaxpUKHLpvlJEAhm+BQDWltnzc4VFhM4k4gJ+MsqyGQ/aq/AOWqTWx8OSJ0H52mDTJ1tQjErTYWeikLEOA==",
+      "path": "livecharts.winforms/0.9.7.1",
+      "hashPath": "livecharts.winforms.0.9.7.1.nupkg.sha512"
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "path": "livecharts.wpf/0.9.7",
+      "hashPath": "livecharts.wpf.0.9.7.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -195,6 +304,41 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Base/20.1.0.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oG9xyl7Av46eSCt9lqu1uzoKYwoINA9sIMU1cFhUfowTOHg1paUKsrWF3CYOe5gqPYN/p/h+fCuBiSuoK+q54Q==",
+      "path": "syncfusion.chart.base/20.1.0.59",
+      "hashPath": "syncfusion.chart.base.20.1.0.59.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Windows/20.1.0.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hBrMePfsB7H4hctkO5ll7o7IMZa9J5Fo7lp4jlsyCFOdT8xytM5tGuC6tb47bBzDaW1AH8A3NUoBzrQ+1mrlwA==",
+      "path": "syncfusion.chart.windows/20.1.0.59",
+      "hashPath": "syncfusion.chart.windows.20.1.0.59.nupkg.sha512"
+    },
+    "Syncfusion.Grouping.Base/20.1.0.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zh8uqI1WhPsuF+NyDgopTxpBGtDon3E53nDiuMW3P/5BoDR/jbFGQBlfL2fpPdzrtA9OtpWFAbwSVVEd/dWMeA==",
+      "path": "syncfusion.grouping.base/20.1.0.59",
+      "hashPath": "syncfusion.grouping.base.20.1.0.59.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.1.0.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W8SzUDmLaX8Ivs9f7FYbxJGNkbjrYxjVOB3+dzQtk8UfhPwH3K8zD2WhNE61WRpB9ecTfe9YAmk2KnfapbOdEw==",
+      "path": "syncfusion.licensing/20.1.0.59",
+      "hashPath": "syncfusion.licensing.20.1.0.59.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/20.1.0.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Az6kBXEOgOR3lrov+33709Vuh9AIEVVZEq+hkd1oIln6IQb9gNgG6Z22mQZiz2Z9ctJwzVKaF/fbk/S+1pWgtg==",
+      "path": "syncfusion.shared.base/20.1.0.59",
+      "hashPath": "syncfusion.shared.base.20.1.0.59.nupkg.sha512"
     },
     "System.Data.SqlClient/4.8.3": {
       "type": "package",

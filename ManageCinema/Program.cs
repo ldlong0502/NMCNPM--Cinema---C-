@@ -13,7 +13,7 @@ namespace ManageCinema
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(Form_Store.admin);
+            Application.Run(Form_Store.loginForm);
             //Application.Run(Form_Store.homePage);
         }
     }

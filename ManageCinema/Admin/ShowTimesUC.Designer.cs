@@ -166,6 +166,7 @@
             this.ptrSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptrSearch.TabIndex = 47;
             this.ptrSearch.TabStop = false;
+            this.ptrSearch.Click += new System.EventHandler(this.ptrSearch_Click);
             // 
             // txtSearchByMovieName
             // 
@@ -248,7 +249,8 @@
             // 
             // dtpDay
             // 
-            this.dtpDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDay.CustomFormat = "dd/MM/yyyy";
+            this.dtpDay.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDay.Location = new System.Drawing.Point(415, 33);
             this.dtpDay.Name = "dtpDay";
             this.dtpDay.Size = new System.Drawing.Size(156, 27);
