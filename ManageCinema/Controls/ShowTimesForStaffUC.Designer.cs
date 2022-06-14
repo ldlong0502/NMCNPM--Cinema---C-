@@ -52,13 +52,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(200, 18);
+            this.label1.Location = new System.Drawing.Point(252, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 25);
+            this.label1.Size = new System.Drawing.Size(223, 28);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Lịch Chiếu Phim";
+            this.label1.Text = "LỊCH CHIẾU PHIM";
             // 
             // lvLichChieu
             // 
@@ -69,6 +69,7 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
+            this.lvLichChieu.FullRowSelect = true;
             this.lvLichChieu.LargeImageList = this.imageList1;
             this.lvLichChieu.Location = new System.Drawing.Point(0, 75);
             this.lvLichChieu.Name = "lvLichChieu";
@@ -124,7 +125,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(731, 75);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -138,10 +139,11 @@
             // dtpThoiGian
             // 
             this.dtpThoiGian.CustomFormat = "dd/MM/yyyy";
+            this.dtpThoiGian.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpThoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpThoiGian.Location = new System.Drawing.Point(19, 90);
             this.dtpThoiGian.Name = "dtpThoiGian";
-            this.dtpThoiGian.Size = new System.Drawing.Size(211, 30);
+            this.dtpThoiGian.Size = new System.Drawing.Size(211, 29);
             this.dtpThoiGian.TabIndex = 10;
             this.dtpThoiGian.ValueChanged += new System.EventHandler(this.dtpThoiGian_ValueChanged);
             // 
@@ -150,7 +152,7 @@
             this.cboFormatFilm.FormattingEnabled = true;
             this.cboFormatFilm.Location = new System.Drawing.Point(18, 256);
             this.cboFormatFilm.Name = "cboFormatFilm";
-            this.cboFormatFilm.Size = new System.Drawing.Size(211, 31);
+            this.cboFormatFilm.Size = new System.Drawing.Size(211, 30);
             this.cboFormatFilm.TabIndex = 9;
             this.cboFormatFilm.SelectedIndexChanged += new System.EventHandler(this.cboFormatFilm_SelectedIndexChanged);
             // 
@@ -159,7 +161,7 @@
             this.cboFilmName.FormattingEnabled = true;
             this.cboFilmName.Location = new System.Drawing.Point(19, 177);
             this.cboFilmName.Name = "cboFilmName";
-            this.cboFilmName.Size = new System.Drawing.Size(211, 31);
+            this.cboFilmName.Size = new System.Drawing.Size(211, 30);
             this.cboFilmName.TabIndex = 8;
             this.cboFilmName.SelectedIndexChanged += new System.EventHandler(this.cboFilmName_SelectedIndexChanged);
             // 

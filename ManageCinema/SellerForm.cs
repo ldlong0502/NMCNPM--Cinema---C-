@@ -48,8 +48,8 @@ namespace ManageCinema
         private void SellerForm_Load(object sender, EventArgs e)
         {
             ticketPrice = Times.TicketPrice;
-
-            lblInformation.Text = "CGV Hung Vuong | " + Times.CinemaName + " | " + Times.MovieName;
+            chkCustomer.ForeColor = Color.White;
+            lblInformation.Text = "Dream Cinema | " + Times.CinemaName + " | " + Times.MovieName;
             lblTime.Text = Times.Time.ToShortDateString() + " | "
                 + Times.Time.ToShortTimeString() + " - "
                 + Times.Time.AddMinutes(Movie.Time).ToShortTimeString();
@@ -60,18 +60,19 @@ namespace ManageCinema
             chkCustomer.Enabled = false;
             
 
-            LoadDataCinema(Times.CinemaName);
+            LoadDataCinema(Times.CinemaName!);
 
             ShowOrHideLablePoint();
 
-            listSeat = TicketDAO.GetListTicketsByShowTimes(Times.ID);
+            listSeat = TicketDAO.GetListTicketsByShowTimes(Times.ID!);
 
             LoadSeats(listSeat);
+            
         }
 
         private void LoadDataCinema(string cinemaName)
         {
-            Cinema cinema = CinemaDAO.GetCinemaByName(cinemaName);
+            RoomCinema cinema = RoomCinemaDAO.GetRoomCinemaByName(cinemaName);
             int Row = cinema.Row;
             int Column = cinema.SeatInRow;
             flpSeat.Size = new Size((SIZE + 20 + GAP) * Column, (SIZE + GAP) * Row);
@@ -332,6 +333,11 @@ namespace ManageCinema
                     LoadBill();
                 }
             }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

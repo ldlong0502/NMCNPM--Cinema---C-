@@ -110,11 +110,11 @@
             // lblGenreName
             // 
             this.lblGenreName.AutoSize = true;
-            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreName.Location = new System.Drawing.Point(267, 124);
             this.lblGenreName.Name = "lblGenreName";
-            this.lblGenreName.Size = new System.Drawing.Size(108, 19);
+            this.lblGenreName.Size = new System.Drawing.Size(126, 21);
             this.lblGenreName.TabIndex = 10;
             this.lblGenreName.Text = "Tên màn hình";
             // 
@@ -128,11 +128,11 @@
             // lblGenreID
             // 
             this.lblGenreID.AutoSize = true;
-            this.lblGenreID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreID.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreID.Location = new System.Drawing.Point(267, 76);
             this.lblGenreID.Name = "lblGenreID";
-            this.lblGenreID.Size = new System.Drawing.Size(138, 19);
+            this.lblGenreID.Size = new System.Drawing.Size(156, 21);
             this.lblGenreID.TabIndex = 8;
             this.lblGenreID.Text = "Mã loại màn hình";
             // 

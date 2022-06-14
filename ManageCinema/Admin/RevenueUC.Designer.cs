@@ -57,11 +57,11 @@
             // lblGenreName
             // 
             this.lblGenreName.AutoSize = true;
-            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreName.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblGenreName.Location = new System.Drawing.Point(85, 14);
             this.lblGenreName.Name = "lblGenreName";
-            this.lblGenreName.Size = new System.Drawing.Size(125, 25);
+            this.lblGenreName.Size = new System.Drawing.Size(137, 28);
             this.lblGenreName.TabIndex = 20;
             this.lblGenreName.Text = "Chọn Phim";
             // 
@@ -71,7 +71,7 @@
             this.groupBox1.Controls.Add(this.dtpFromDate);
             this.groupBox1.Controls.Add(this.lblTo);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(85, 69);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -85,38 +85,40 @@
             // dtpToDate
             // 
             this.dtpToDate.CustomFormat = "dd/MM/yyyy";
+            this.dtpToDate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpToDate.Location = new System.Drawing.Point(511, 68);
             this.dtpToDate.Name = "dtpToDate";
-            this.dtpToDate.Size = new System.Drawing.Size(192, 30);
+            this.dtpToDate.Size = new System.Drawing.Size(192, 32);
             this.dtpToDate.TabIndex = 24;
             // 
             // dtpFromDate
             // 
             this.dtpFromDate.CustomFormat = "dd/MM/yyyy";
+            this.dtpFromDate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtpFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpFromDate.Location = new System.Drawing.Point(142, 68);
             this.dtpFromDate.Name = "dtpFromDate";
-            this.dtpFromDate.Size = new System.Drawing.Size(192, 30);
+            this.dtpFromDate.Size = new System.Drawing.Size(192, 32);
             this.dtpFromDate.TabIndex = 23;
             // 
             // lblTo
             // 
             this.lblTo.AutoSize = true;
-            this.lblTo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTo.Location = new System.Drawing.Point(401, 73);
+            this.lblTo.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTo.Location = new System.Drawing.Point(392, 73);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(89, 23);
+            this.lblTo.Size = new System.Drawing.Size(113, 24);
             this.lblTo.TabIndex = 22;
-            this.lblTo.Text = "Đến ngày";
+            this.lblTo.Text = "Đến ngày:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(49, 72);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(37, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 23);
+            this.label2.Size = new System.Drawing.Size(99, 24);
             this.label2.TabIndex = 0;
             this.label2.Text = "Từ ngày:";
             // 
@@ -134,7 +136,7 @@
             // 
             this.groupBox2.Controls.Add(this.btnReport);
             this.groupBox2.Controls.Add(this.btnStatistic);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(900, 69);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -169,11 +171,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(900, 583);
+            this.label3.Location = new System.Drawing.Point(900, 585);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(184, 25);
+            this.label3.Size = new System.Drawing.Size(202, 28);
             this.label3.TabIndex = 26;
             this.label3.Text = "Tổng Doanh Thu";
             // 

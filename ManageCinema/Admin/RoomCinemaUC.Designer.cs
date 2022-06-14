@@ -123,6 +123,7 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.lblYear);
             this.groupBox2.Controls.Add(this.txtNumRows);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(585, 30);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(428, 280);
@@ -133,11 +134,11 @@
             // lblDirector
             // 
             this.lblDirector.AutoSize = true;
-            this.lblDirector.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDirector.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDirector.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDirector.Location = new System.Drawing.Point(69, 51);
             this.lblDirector.Name = "lblDirector";
-            this.lblDirector.Size = new System.Drawing.Size(94, 19);
+            this.lblDirector.Size = new System.Drawing.Size(111, 21);
             this.lblDirector.TabIndex = 32;
             this.lblDirector.Text = "Số chỗ ngồi";
             // 
@@ -145,35 +146,35 @@
             // 
             this.txtSeat.Location = new System.Drawing.Point(215, 47);
             this.txtSeat.Name = "txtSeat";
-            this.txtSeat.Size = new System.Drawing.Size(158, 27);
+            this.txtSeat.Size = new System.Drawing.Size(158, 26);
             this.txtSeat.TabIndex = 33;
             // 
             // txtSeatPerRow
             // 
             this.txtSeatPerRow.Location = new System.Drawing.Point(215, 135);
             this.txtSeatPerRow.Name = "txtSeatPerRow";
-            this.txtSeatPerRow.Size = new System.Drawing.Size(158, 27);
+            this.txtSeatPerRow.Size = new System.Drawing.Size(158, 26);
             this.txtSeatPerRow.TabIndex = 39;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Location = new System.Drawing.Point(69, 97);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 19);
+            this.label9.Size = new System.Drawing.Size(117, 21);
             this.label9.TabIndex = 34;
             this.label9.Text = "Số hàng ghế";
             // 
             // lblYear
             // 
             this.lblYear.AutoSize = true;
-            this.lblYear.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblYear.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblYear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblYear.Location = new System.Drawing.Point(69, 139);
             this.lblYear.Name = "lblYear";
-            this.lblYear.Size = new System.Drawing.Size(112, 19);
+            this.lblYear.Size = new System.Drawing.Size(129, 21);
             this.lblYear.TabIndex = 38;
             this.lblYear.Text = "Ghế mỗi hàng";
             // 
@@ -181,7 +182,7 @@
             // 
             this.txtNumRows.Location = new System.Drawing.Point(215, 93);
             this.txtNumRows.Name = "txtNumRows";
-            this.txtNumRows.Size = new System.Drawing.Size(158, 27);
+            this.txtNumRows.Size = new System.Drawing.Size(158, 26);
             this.txtNumRows.TabIndex = 35;
             // 
             // groupBox1
@@ -194,6 +195,7 @@
             this.groupBox1.Controls.Add(this.txtRoomName);
             this.groupBox1.Controls.Add(this.txtStatus);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(35, 30);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(480, 280);
@@ -206,17 +208,17 @@
             this.cbxScreen.FormattingEnabled = true;
             this.cbxScreen.Location = new System.Drawing.Point(207, 139);
             this.cbxScreen.Name = "cbxScreen";
-            this.cbxScreen.Size = new System.Drawing.Size(158, 28);
+            this.cbxScreen.Size = new System.Drawing.Size(158, 26);
             this.cbxScreen.TabIndex = 44;
             // 
             // lblMovieLength
             // 
             this.lblMovieLength.AutoSize = true;
-            this.lblMovieLength.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMovieLength.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMovieLength.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblMovieLength.Location = new System.Drawing.Point(81, 55);
             this.lblMovieLength.Name = "lblMovieLength";
-            this.lblMovieLength.Size = new System.Drawing.Size(82, 19);
+            this.lblMovieLength.Size = new System.Drawing.Size(95, 21);
             this.lblMovieLength.TabIndex = 26;
             this.lblMovieLength.Text = "Mã phòng";
             // 
@@ -224,29 +226,29 @@
             // 
             this.txtRoomID.Location = new System.Drawing.Point(207, 51);
             this.txtRoomID.Name = "txtRoomID";
-            this.txtRoomID.Size = new System.Drawing.Size(158, 27);
+            this.txtRoomID.Size = new System.Drawing.Size(158, 26);
             this.txtRoomID.TabIndex = 27;
             this.txtRoomID.TextChanged += new System.EventHandler(this.txtRoomID_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(81, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 19);
+            this.label1.Size = new System.Drawing.Size(89, 21);
             this.label1.TabIndex = 42;
             this.label1.Text = "Màn hình";
             // 
             // lblNation
             // 
             this.lblNation.AutoSize = true;
-            this.lblNation.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNation.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNation.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblNation.Location = new System.Drawing.Point(81, 191);
             this.lblNation.Name = "lblNation";
-            this.lblNation.Size = new System.Drawing.Size(87, 19);
+            this.lblNation.Size = new System.Drawing.Size(98, 21);
             this.lblNation.TabIndex = 30;
             this.lblNation.Text = "Tình trạng";
             // 
@@ -254,24 +256,24 @@
             // 
             this.txtRoomName.Location = new System.Drawing.Point(207, 97);
             this.txtRoomName.Name = "txtRoomName";
-            this.txtRoomName.Size = new System.Drawing.Size(158, 27);
+            this.txtRoomName.Size = new System.Drawing.Size(158, 26);
             this.txtRoomName.TabIndex = 41;
             // 
             // txtStatus
             // 
             this.txtStatus.Location = new System.Drawing.Point(207, 187);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(158, 27);
+            this.txtStatus.Size = new System.Drawing.Size(158, 26);
             this.txtStatus.TabIndex = 31;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(81, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 19);
+            this.label2.Size = new System.Drawing.Size(101, 21);
             this.label2.TabIndex = 40;
             this.label2.Text = "Tên phòng";
             // 
@@ -286,13 +288,13 @@
             this.dtgvRoom.Size = new System.Drawing.Size(1050, 300);
             this.dtgvRoom.TabIndex = 1;
             // 
-            // RoomCinema
+            // RoomCinemaUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dtgvRoom);
             this.Controls.Add(this.panel1);
-            this.Name = "RoomCinema";
+            this.Name = "RoomCinemaUC";
             this.Size = new System.Drawing.Size(1050, 684);
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

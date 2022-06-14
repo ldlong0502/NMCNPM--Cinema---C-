@@ -79,6 +79,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.txtScreenName);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(557, 81);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(473, 125);
@@ -89,40 +90,40 @@
             // cbxScreenID
             // 
             this.cbxScreenID.FormattingEnabled = true;
-            this.cbxScreenID.Location = new System.Drawing.Point(128, 32);
+            this.cbxScreenID.Location = new System.Drawing.Point(138, 34);
             this.cbxScreenID.Name = "cbxScreenID";
-            this.cbxScreenID.Size = new System.Drawing.Size(299, 28);
+            this.cbxScreenID.Size = new System.Drawing.Size(299, 29);
             this.cbxScreenID.TabIndex = 20;
             this.cbxScreenID.SelectedValueChanged += new System.EventHandler(this.cbxScreenID_SelectedValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(6, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 19);
+            this.label1.Size = new System.Drawing.Size(109, 21);
             this.label1.TabIndex = 10;
             this.label1.Text = "Mã mà hình";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(6, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 19);
+            this.label2.Size = new System.Drawing.Size(126, 21);
             this.label2.TabIndex = 12;
             this.label2.Text = "Tên màn hình";
             // 
             // txtScreenName
             // 
-            this.txtScreenName.Location = new System.Drawing.Point(128, 72);
+            this.txtScreenName.Location = new System.Drawing.Point(138, 71);
             this.txtScreenName.Name = "txtScreenName";
             this.txtScreenName.ReadOnly = true;
-            this.txtScreenName.Size = new System.Drawing.Size(300, 27);
+            this.txtScreenName.Size = new System.Drawing.Size(300, 28);
             this.txtScreenName.TabIndex = 18;
             // 
             // groupBox1
@@ -131,6 +132,7 @@
             this.groupBox1.Controls.Add(this.lblGenreName);
             this.groupBox1.Controls.Add(this.lblDescripe);
             this.groupBox1.Controls.Add(this.txtMovieName);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(17, 81);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(473, 125);
@@ -143,29 +145,29 @@
             this.cbxMovieID.FormattingEnabled = true;
             this.cbxMovieID.Location = new System.Drawing.Point(115, 32);
             this.cbxMovieID.Name = "cbxMovieID";
-            this.cbxMovieID.Size = new System.Drawing.Size(299, 28);
+            this.cbxMovieID.Size = new System.Drawing.Size(299, 29);
             this.cbxMovieID.TabIndex = 19;
             this.cbxMovieID.SelectedValueChanged += new System.EventHandler(this.cbxMovieID_SelectedValueChanged);
             // 
             // lblGenreName
             // 
             this.lblGenreName.AutoSize = true;
-            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreName.Location = new System.Drawing.Point(6, 36);
             this.lblGenreName.Name = "lblGenreName";
-            this.lblGenreName.Size = new System.Drawing.Size(75, 19);
+            this.lblGenreName.Size = new System.Drawing.Size(83, 21);
             this.lblGenreName.TabIndex = 10;
             this.lblGenreName.Text = "Mã phim";
             // 
             // lblDescripe
             // 
             this.lblDescripe.AutoSize = true;
-            this.lblDescripe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripe.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDescripe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDescripe.Location = new System.Drawing.Point(6, 80);
             this.lblDescripe.Name = "lblDescripe";
-            this.lblDescripe.Size = new System.Drawing.Size(78, 19);
+            this.lblDescripe.Size = new System.Drawing.Size(89, 21);
             this.lblDescripe.TabIndex = 12;
             this.lblDescripe.Text = "Tên phim";
             // 
@@ -174,7 +176,7 @@
             this.txtMovieName.Location = new System.Drawing.Point(115, 72);
             this.txtMovieName.Name = "txtMovieName";
             this.txtMovieName.ReadOnly = true;
-            this.txtMovieName.Size = new System.Drawing.Size(302, 27);
+            this.txtMovieName.Size = new System.Drawing.Size(302, 28);
             this.txtMovieName.TabIndex = 18;
             // 
             // btnDelete
@@ -209,6 +211,7 @@
             // 
             // btnSee
             // 
+            this.btnSee.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSee.Location = new System.Drawing.Point(305, 231);
             this.btnSee.Name = "btnSee";
             this.btnSee.Size = new System.Drawing.Size(76, 35);
@@ -228,11 +231,11 @@
             // lblGenreID
             // 
             this.lblGenreID.AutoSize = true;
-            this.lblGenreID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreID.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreID.Location = new System.Drawing.Point(281, 40);
             this.lblGenreID.Name = "lblGenreID";
-            this.lblGenreID.Size = new System.Drawing.Size(109, 19);
+            this.lblGenreID.Size = new System.Drawing.Size(126, 21);
             this.lblGenreID.TabIndex = 8;
             this.lblGenreID.Text = "Mã định dạng";
             // 

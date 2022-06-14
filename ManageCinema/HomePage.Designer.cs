@@ -34,7 +34,6 @@
             this.pnlNavigate = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnSettings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnShowTimes = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnTicket = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnMovie = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -56,7 +55,6 @@
             this.guna2Panel1.Controls.Add(this.pnlNavigate);
             this.guna2Panel1.Controls.Add(this.btnSettings);
             this.guna2Panel1.Controls.Add(this.btnShowTimes);
-            this.guna2Panel1.Controls.Add(this.btnTicket);
             this.guna2Panel1.Controls.Add(this.btnMovie);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -68,8 +66,10 @@
             // pnlNavigate
             // 
             this.pnlNavigate.BackColor = System.Drawing.Color.Navy;
-            this.pnlNavigate.FillColor = System.Drawing.Color.Azure;
-            this.pnlNavigate.FillColor2 = System.Drawing.Color.LightGreen;
+            this.pnlNavigate.BorderRadius = 2;
+            this.pnlNavigate.CustomBorderThickness = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.pnlNavigate.FillColor = System.Drawing.Color.White;
+            this.pnlNavigate.FillColor2 = System.Drawing.Color.White;
             this.pnlNavigate.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.pnlNavigate.Location = new System.Drawing.Point(0, 205);
             this.pnlNavigate.Name = "pnlNavigate";
@@ -86,7 +86,7 @@
             this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSettings.FillColor = System.Drawing.Color.Empty;
             this.btnSettings.FillColor2 = System.Drawing.Color.Empty;
-            this.btnSettings.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSettings.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSettings.ForeColor = System.Drawing.Color.White;
             this.btnSettings.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnSettings.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
@@ -97,7 +97,7 @@
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(222, 58);
             this.btnSettings.TabIndex = 4;
-            this.btnSettings.Text = "Settings";
+            this.btnSettings.Text = "Cài đặt";
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             this.btnSettings.Leave += new System.EventHandler(this.btnSettings_Leave);
             // 
@@ -111,44 +111,19 @@
             this.btnShowTimes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnShowTimes.FillColor = System.Drawing.Color.Empty;
             this.btnShowTimes.FillColor2 = System.Drawing.Color.Empty;
-            this.btnShowTimes.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnShowTimes.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnShowTimes.ForeColor = System.Drawing.Color.White;
             this.btnShowTimes.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnShowTimes.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnShowTimes.Image = global::ManageCinema.Properties.Resources.showtime;
             this.btnShowTimes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnShowTimes.Location = new System.Drawing.Point(0, 239);
+            this.btnShowTimes.Location = new System.Drawing.Point(0, 175);
             this.btnShowTimes.Name = "btnShowTimes";
             this.btnShowTimes.Size = new System.Drawing.Size(222, 58);
             this.btnShowTimes.TabIndex = 3;
             this.btnShowTimes.Text = "Lịch Chiếu";
             this.btnShowTimes.Click += new System.EventHandler(this.btnShowTimes_Click);
             this.btnShowTimes.Leave += new System.EventHandler(this.btnShowTimes_Leave);
-            // 
-            // btnTicket
-            // 
-            this.btnTicket.BorderColor = System.Drawing.Color.Transparent;
-            this.btnTicket.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTicket.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTicket.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTicket.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTicket.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTicket.FillColor = System.Drawing.Color.Empty;
-            this.btnTicket.FillColor2 = System.Drawing.Color.Empty;
-            this.btnTicket.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnTicket.ForeColor = System.Drawing.Color.White;
-            this.btnTicket.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
-            this.btnTicket.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.btnTicket.Image = global::ManageCinema.Properties.Resources._4533901;
-            this.btnTicket.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnTicket.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTicket.Location = new System.Drawing.Point(0, 175);
-            this.btnTicket.Name = "btnTicket";
-            this.btnTicket.Size = new System.Drawing.Size(222, 58);
-            this.btnTicket.TabIndex = 2;
-            this.btnTicket.Text = "Mua Vé";
-            this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
-            this.btnTicket.Leave += new System.EventHandler(this.btnTicket_Leave);
             // 
             // btnMovie
             // 
@@ -161,7 +136,7 @@
             this.btnMovie.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMovie.FillColor = System.Drawing.Color.Empty;
             this.btnMovie.FillColor2 = System.Drawing.Color.Empty;
-            this.btnMovie.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMovie.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnMovie.ForeColor = System.Drawing.Color.White;
             this.btnMovie.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(62)))), ((int)(((byte)(103)))));
             this.btnMovie.HoverState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
@@ -247,7 +222,6 @@
         private Guna.UI2.WinForms.Guna2GradientPanel pnlNavigate;
         private Guna.UI2.WinForms.Guna2GradientButton btnSettings;
         private Guna.UI2.WinForms.Guna2GradientButton btnShowTimes;
-        private Guna.UI2.WinForms.Guna2GradientButton btnTicket;
         private Panel pnlScreen;
     }
 }

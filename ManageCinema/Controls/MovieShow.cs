@@ -15,7 +15,7 @@ namespace ManageCinema.Controls
 {
     public partial class MovieShow : Form
     {
-        
+        Movie movie = new Movie();
         public MovieShow()
         {
             InitializeComponent();
@@ -25,6 +25,7 @@ namespace ManageCinema.Controls
         public MovieShow(Movie movie,List<FormatMovie> formats, Image image)
         {
             InitializeComponent();
+            this.movie = movie;
             ptrFormat2.Visible = ptrFormat3.Visible = false;
             lblMovie_name.Text = movie.Name;
             ptrMovie.Image = image;
@@ -89,8 +90,9 @@ namespace ManageCinema.Controls
 
         private void btnTrailer_Click(object sender, EventArgs e)
         {
-            CardInfoShowTimes showTimes = new CardInfoShowTimes(lblMovie_name.Text);
+            CardInfoShowTimes showTimes = new CardInfoShowTimes(movie);
             showTimes.ShowDialog();
         }
+
     }
 }

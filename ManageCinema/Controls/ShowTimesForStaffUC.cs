@@ -102,13 +102,18 @@ namespace ManageCinema.Controls
             if (lvLichChieu.SelectedItems.Count > 0)
             {
                 timer1.Stop();
-                //ShowTimes? showTimes = lvLichChieu.SelectedItems[0].Tag as ShowTimes;
-                //Movie? movie = cboFilmName.SelectedItem as Movie;
-                //frmTheatre frm = new frmTheatre(showTimes, movie);
-                //this.Hide();
-                //frm.ShowDialog();
-                //this.OnLoad(null);
-                //this.Show();
+                ShowTimes? showTimes = lvLichChieu.SelectedItems[0].Tag as ShowTimes;
+                Movie? movie = cboFilmName.SelectedItem as Movie;
+                if (DateTime.Compare(DateTime.Now, showTimes!.Time.AddMinutes(30)) > 0)
+                {
+                    MessageBox.Show("Phim đã được chiếu hơn 30 phút!!!Không thể mua Vé!!!Vui lòng xem và chọn lịch chiếu khác", "Thông báo");
+                    return;
+                }
+                SellerForm frm = new SellerForm(showTimes!, movie!);
+                this.Hide();
+                frm.ShowDialog();
+                this.OnLoad(null);
+                this.Show();
             }
         }
     }

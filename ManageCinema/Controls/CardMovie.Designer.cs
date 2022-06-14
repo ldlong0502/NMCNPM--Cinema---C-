@@ -66,7 +66,7 @@
             this.btnMovie_name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMovie_name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMovie_name.FillColor = System.Drawing.Color.Transparent;
-            this.btnMovie_name.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMovie_name.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMovie_name.ForeColor = System.Drawing.Color.White;
             this.btnMovie_name.Location = new System.Drawing.Point(0, 0);
             this.btnMovie_name.Name = "btnMovie_name";

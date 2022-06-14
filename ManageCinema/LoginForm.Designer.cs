@@ -50,17 +50,18 @@
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUsername.Location = new System.Drawing.Point(12, 46);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(240, 32);
+            this.txtUsername.Size = new System.Drawing.Size(240, 38);
             this.txtUsername.TabIndex = 1;
             // 
             // label
             // 
             this.label.AutoSize = true;
+            this.label.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label.Location = new System.Drawing.Point(8, 22);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(76, 19);
+            this.label.Size = new System.Drawing.Size(137, 21);
             this.label.TabIndex = 1;
-            this.label.Text = "Username";
+            this.label.Text = "Tên đăng nhập";
             // 
             // panel1
             // 
@@ -71,7 +72,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtUsername);
             this.panel1.Controls.Add(this.label);
-            this.panel1.Location = new System.Drawing.Point(25, 83);
+            this.panel1.Location = new System.Drawing.Point(50, 88);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(269, 287);
             this.panel1.TabIndex = 2;
@@ -79,11 +80,12 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(120, 147);
+            this.checkBox1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.Location = new System.Drawing.Point(68, 153);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(132, 23);
+            this.checkBox1.Size = new System.Drawing.Size(184, 25);
             this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "Show password";
+            this.checkBox1.Text = "Hiển thị mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -91,12 +93,13 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(12, 223);
+            this.button3.Location = new System.Drawing.Point(12, 238);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(240, 35);
             this.button3.TabIndex = 4;
-            this.button3.Text = "CONNECT DATABASE";
+            this.button3.Text = "Kết nối CSDL";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -104,12 +107,13 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 176);
+            this.button1.Location = new System.Drawing.Point(12, 184);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(240, 35);
             this.button1.TabIndex = 3;
-            this.button1.Text = "LOGIN";
+            this.button1.Text = "Đăng nhập";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -119,17 +123,18 @@
             this.txtPassword.Location = new System.Drawing.Point(12, 109);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(240, 32);
+            this.txtPassword.Size = new System.Drawing.Size(240, 38);
             this.txtPassword.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(8, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 19);
+            this.label1.Size = new System.Drawing.Size(89, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Password";
+            this.label1.Text = "Mật khẩu";
             // 
             // pictureBox1
             // 
@@ -149,14 +154,14 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(70, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 40);
+            this.label2.Size = new System.Drawing.Size(292, 50);
             this.label2.TabIndex = 4;
-            this.label2.Text = "CINEMA APP";
+            this.label2.Text = "DREAM CINEMA";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(285, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(340, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(22, 21);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,10 +171,10 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(81)))));
-            this.ClientSize = new System.Drawing.Size(319, 391);
+            this.ClientSize = new System.Drawing.Size(375, 412);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);

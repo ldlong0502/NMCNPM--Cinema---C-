@@ -5,6 +5,7 @@ namespace ManageCinema
     public partial class HomePage : Form
     {
         MovieForStaffUC movieForStaffUC = new MovieForStaffUC();
+        ShowTimesForStaffUC showTimesForStaff = new ShowTimesForStaffUC();  
         public HomePage()
         {
             InitializeComponent();
@@ -27,10 +28,6 @@ namespace ManageCinema
             btn.BackColor = Color.FromArgb(46, 51, 73);
         }
 
-        private void btnTicket_Click(object sender, EventArgs e)
-        {
-            ClickNavigateButton(btnTicket);
-        }
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
@@ -42,10 +39,6 @@ namespace ManageCinema
             btnMovie.BackColor = Color.FromArgb(40, 42, 52);
         }
 
-        private void btnTicket_Leave(object sender, EventArgs e)
-        {
-            btnTicket.BackColor = Color.FromArgb(40, 42, 52);
-        }
 
         private void btnSettings_Leave(object sender, EventArgs e)
         {
@@ -63,7 +56,7 @@ namespace ManageCinema
         {
             ClickNavigateButton(btnShowTimes);
             pnlScreen.Controls.Clear();
-            pnlScreen.Controls.Add(new Controls.ShowTimesForStaffUC());
+            pnlScreen.Controls.Add(showTimesForStaff);
         }
 
         private void btnShowTimes_Leave(object sender, EventArgs e)

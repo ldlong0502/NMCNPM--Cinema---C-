@@ -41,7 +41,6 @@
             this.lblGenre = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBuyTicket = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnTrailer = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnVoteStar = new Guna.UI2.WinForms.Guna2RatingStar();
             this.label18 = new System.Windows.Forms.Label();
@@ -92,7 +91,6 @@
             this.panel2.Controls.Add(this.lblGenre);
             this.panel2.Controls.Add(this.lblTime);
             this.panel2.Controls.Add(this.btnClose);
-            this.panel2.Controls.Add(this.btnBuyTicket);
             this.panel2.Controls.Add(this.btnTrailer);
             this.panel2.Controls.Add(this.btnVoteStar);
             this.panel2.Controls.Add(this.label18);
@@ -140,12 +138,12 @@
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDescription.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblDescription.ForeColor = System.Drawing.Color.White;
             this.lblDescription.Location = new System.Drawing.Point(10, 10);
-            this.lblDescription.Margin = new System.Windows.Forms.Padding(10, 10, 30, 0);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(10, 10, 100, 0);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(716, 66);
+            this.lblDescription.Size = new System.Drawing.Size(641, 96);
             this.lblDescription.TabIndex = 12;
             this.lblDescription.Text = resources.GetString("lblDescription.Text");
             // 
@@ -206,28 +204,6 @@
             this.btnClose.Text = "X";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // btnBuyTicket
-            // 
-            this.btnBuyTicket.BorderRadius = 20;
-            this.btnBuyTicket.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuyTicket.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBuyTicket.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuyTicket.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBuyTicket.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBuyTicket.FillColor = System.Drawing.Color.Cyan;
-            this.btnBuyTicket.FillColor2 = System.Drawing.Color.DarkGray;
-            this.btnBuyTicket.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBuyTicket.ForeColor = System.Drawing.Color.White;
-            this.btnBuyTicket.Image = global::ManageCinema.Properties.Resources._4533901;
-            this.btnBuyTicket.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnBuyTicket.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnBuyTicket.Location = new System.Drawing.Point(390, 550);
-            this.btnBuyTicket.Name = "btnBuyTicket";
-            this.btnBuyTicket.Size = new System.Drawing.Size(205, 56);
-            this.btnBuyTicket.TabIndex = 16;
-            this.btnBuyTicket.Text = "MUA VÉ";
-            this.btnBuyTicket.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
             // btnTrailer
             // 
             this.btnTrailer.BorderRadius = 20;
@@ -237,16 +213,16 @@
             this.btnTrailer.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnTrailer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnTrailer.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnTrailer.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTrailer.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTrailer.ForeColor = System.Drawing.Color.White;
             this.btnTrailer.Image = global::ManageCinema.Properties.Resources.showtime;
             this.btnTrailer.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnTrailer.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTrailer.Location = new System.Drawing.Point(127, 550);
+            this.btnTrailer.Location = new System.Drawing.Point(266, 550);
             this.btnTrailer.Name = "btnTrailer";
-            this.btnTrailer.Size = new System.Drawing.Size(220, 56);
+            this.btnTrailer.Size = new System.Drawing.Size(343, 56);
             this.btnTrailer.TabIndex = 15;
-            this.btnTrailer.Text = "LỊCH CHIẾU";
+            this.btnTrailer.Text = "LỊCH CHIẾU VÀ MUA VÉ";
             this.btnTrailer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTrailer.Click += new System.EventHandler(this.btnTrailer_Click);
             // 
@@ -374,7 +350,6 @@
         private Label label18;
         private Label lblDescription;
         private PictureBox ptrFormat1;
-        private Guna.UI2.WinForms.Guna2GradientButton btnBuyTicket;
         private Guna.UI2.WinForms.Guna2GradientButton btnTrailer;
         private Guna.UI2.WinForms.Guna2RatingStar btnVoteStar;
         private Guna.UI2.WinForms.Guna2Button btnClose;

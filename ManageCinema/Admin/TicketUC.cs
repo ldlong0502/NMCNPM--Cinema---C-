@@ -156,7 +156,7 @@ namespace ManageCinema.Admin
 
         private void LoadTicketsBoughtByShowTimes(string? showTimesID)
         {
-            List<Ticket> listTicket = TicketDAO.GetListTicketsBoughtByShowTimes(showTimesID);
+            List<Ticket> listTicket = TicketDAO.GetListTicketsBoughtByShowTimes(showTimesID!);
             dtgvTicket.DataSource = listTicket;
         }
 

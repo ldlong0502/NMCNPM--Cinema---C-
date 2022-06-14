@@ -123,7 +123,7 @@
             // 
             // txtYear
             // 
-            this.txtYear.Location = new System.Drawing.Point(827, 315);
+            this.txtYear.Location = new System.Drawing.Point(856, 313);
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(158, 27);
             this.txtYear.TabIndex = 25;
@@ -131,11 +131,11 @@
             // lblYear
             // 
             this.lblYear.AutoSize = true;
-            this.lblYear.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblYear.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblYear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblYear.Location = new System.Drawing.Point(718, 320);
             this.lblYear.Name = "lblYear";
-            this.lblYear.Size = new System.Drawing.Size(106, 19);
+            this.lblYear.Size = new System.Drawing.Size(127, 21);
             this.lblYear.TabIndex = 24;
             this.lblYear.Text = "Năm sản xuất";
             // 
@@ -143,7 +143,7 @@
             // 
             this.dtpDayEnd.CustomFormat = "dd/MM/yyyy";
             this.dtpDayEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDayEnd.Location = new System.Drawing.Point(827, 132);
+            this.dtpDayEnd.Location = new System.Drawing.Point(856, 130);
             this.dtpDayEnd.Name = "dtpDayEnd";
             this.dtpDayEnd.Size = new System.Drawing.Size(158, 27);
             this.dtpDayEnd.TabIndex = 23;
@@ -152,7 +152,7 @@
             // 
             this.dtpDayStart.CustomFormat = "dd/MM/yyyy";
             this.dtpDayStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDayStart.Location = new System.Drawing.Point(829, 92);
+            this.dtpDayStart.Location = new System.Drawing.Point(858, 90);
             this.dtpDayStart.Name = "dtpDayStart";
             this.dtpDayStart.Size = new System.Drawing.Size(156, 27);
             this.dtpDayStart.TabIndex = 22;
@@ -170,17 +170,17 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label10.Location = new System.Drawing.Point(322, 180);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 19);
+            this.label10.Size = new System.Drawing.Size(77, 21);
             this.label10.TabIndex = 20;
             this.label10.Text = "Thể loại";
             // 
             // txtActor
             // 
-            this.txtActor.Location = new System.Drawing.Point(827, 274);
+            this.txtActor.Location = new System.Drawing.Point(856, 272);
             this.txtActor.Name = "txtActor";
             this.txtActor.Size = new System.Drawing.Size(158, 27);
             this.txtActor.TabIndex = 19;
@@ -188,17 +188,17 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Location = new System.Drawing.Point(718, 278);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 19);
+            this.label9.Size = new System.Drawing.Size(90, 21);
             this.label9.TabIndex = 18;
             this.label9.Text = "Diễn viên";
             // 
             // txtDirector
             // 
-            this.txtDirector.Location = new System.Drawing.Point(827, 228);
+            this.txtDirector.Location = new System.Drawing.Point(856, 226);
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(158, 27);
             this.txtDirector.TabIndex = 17;
@@ -206,17 +206,17 @@
             // lblDirector
             // 
             this.lblDirector.AutoSize = true;
-            this.lblDirector.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDirector.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDirector.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDirector.Location = new System.Drawing.Point(718, 232);
             this.lblDirector.Name = "lblDirector";
-            this.lblDirector.Size = new System.Drawing.Size(74, 19);
+            this.lblDirector.Size = new System.Drawing.Size(86, 21);
             this.lblDirector.TabIndex = 16;
             this.lblDirector.Text = "Dạo diễn";
             // 
             // txtNation
             // 
-            this.txtNation.Location = new System.Drawing.Point(827, 180);
+            this.txtNation.Location = new System.Drawing.Point(856, 178);
             this.txtNation.Name = "txtNation";
             this.txtNation.Size = new System.Drawing.Size(158, 27);
             this.txtNation.TabIndex = 15;
@@ -224,39 +224,39 @@
             // lblNation
             // 
             this.lblNation.AutoSize = true;
-            this.lblNation.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNation.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNation.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblNation.Location = new System.Drawing.Point(718, 184);
             this.lblNation.Name = "lblNation";
-            this.lblNation.Size = new System.Drawing.Size(75, 19);
+            this.lblNation.Size = new System.Drawing.Size(85, 21);
             this.lblNation.TabIndex = 14;
             this.lblNation.Text = "Quốc gia";
             // 
             // lblDayEnd
             // 
             this.lblDayEnd.AutoSize = true;
-            this.lblDayEnd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDayEnd.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDayEnd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDayEnd.Location = new System.Drawing.Point(718, 136);
             this.lblDayEnd.Name = "lblDayEnd";
-            this.lblDayEnd.Size = new System.Drawing.Size(72, 19);
+            this.lblDayEnd.Size = new System.Drawing.Size(81, 21);
             this.lblDayEnd.TabIndex = 12;
             this.lblDayEnd.Text = "Ngày KT";
             // 
             // lblDayStart
             // 
             this.lblDayStart.AutoSize = true;
-            this.lblDayStart.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDayStart.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDayStart.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDayStart.Location = new System.Drawing.Point(718, 92);
             this.lblDayStart.Name = "lblDayStart";
-            this.lblDayStart.Size = new System.Drawing.Size(74, 19);
+            this.lblDayStart.Size = new System.Drawing.Size(82, 21);
             this.lblDayStart.TabIndex = 10;
             this.lblDayStart.Text = "Ngày KC";
             // 
             // txtMovieLength
             // 
-            this.txtMovieLength.Location = new System.Drawing.Point(827, 44);
+            this.txtMovieLength.Location = new System.Drawing.Point(856, 42);
             this.txtMovieLength.Name = "txtMovieLength";
             this.txtMovieLength.Size = new System.Drawing.Size(158, 27);
             this.txtMovieLength.TabIndex = 9;
@@ -264,11 +264,11 @@
             // lblMovieLength
             // 
             this.lblMovieLength.AutoSize = true;
-            this.lblMovieLength.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMovieLength.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMovieLength.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblMovieLength.Location = new System.Drawing.Point(718, 48);
             this.lblMovieLength.Name = "lblMovieLength";
-            this.lblMovieLength.Size = new System.Drawing.Size(90, 19);
+            this.lblMovieLength.Size = new System.Drawing.Size(102, 21);
             this.lblMovieLength.TabIndex = 8;
             this.lblMovieLength.Text = "Thời lượng";
             // 
@@ -282,11 +282,11 @@
             // lblDescripe
             // 
             this.lblDescripe.AutoSize = true;
-            this.lblDescripe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripe.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDescripe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDescripe.Location = new System.Drawing.Point(322, 136);
             this.lblDescripe.Name = "lblDescripe";
-            this.lblDescripe.Size = new System.Drawing.Size(52, 19);
+            this.lblDescripe.Size = new System.Drawing.Size(58, 21);
             this.lblDescripe.TabIndex = 6;
             this.lblDescripe.Text = "Mô tả";
             // 
@@ -300,11 +300,11 @@
             // lblMovieName
             // 
             this.lblMovieName.AutoSize = true;
-            this.lblMovieName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMovieName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMovieName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblMovieName.Location = new System.Drawing.Point(322, 92);
             this.lblMovieName.Name = "lblMovieName";
-            this.lblMovieName.Size = new System.Drawing.Size(80, 19);
+            this.lblMovieName.Size = new System.Drawing.Size(89, 21);
             this.lblMovieName.TabIndex = 4;
             this.lblMovieName.Text = "Tên Phim";
             // 
@@ -319,11 +319,11 @@
             // lblMovieID
             // 
             this.lblMovieID.AutoSize = true;
-            this.lblMovieID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMovieID.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblMovieID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblMovieID.Location = new System.Drawing.Point(322, 48);
             this.lblMovieID.Name = "lblMovieID";
-            this.lblMovieID.Size = new System.Drawing.Size(77, 19);
+            this.lblMovieID.Size = new System.Drawing.Size(83, 21);
             this.lblMovieID.TabIndex = 2;
             this.lblMovieID.Text = "Mã Phim";
             this.lblMovieID.Click += new System.EventHandler(this.label1_Click);

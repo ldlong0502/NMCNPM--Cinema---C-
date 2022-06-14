@@ -68,7 +68,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(640, 231);
+            this.btnDelete.Location = new System.Drawing.Point(651, 230);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(76, 35);
             this.btnDelete.TabIndex = 17;
@@ -78,7 +78,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(533, 231);
+            this.btnUpdate.Location = new System.Drawing.Point(544, 230);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(76, 35);
             this.btnUpdate.TabIndex = 16;
@@ -88,7 +88,7 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(414, 231);
+            this.btnInsert.Location = new System.Drawing.Point(425, 230);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(76, 35);
             this.btnInsert.TabIndex = 15;
@@ -98,7 +98,7 @@
             // 
             // btnSee
             // 
-            this.btnSee.Location = new System.Drawing.Point(305, 231);
+            this.btnSee.Location = new System.Drawing.Point(316, 230);
             this.btnSee.Name = "btnSee";
             this.btnSee.Size = new System.Drawing.Size(76, 35);
             this.btnSee.TabIndex = 14;
@@ -108,7 +108,7 @@
             // 
             // txtGenreDescripe
             // 
-            this.txtGenreDescripe.Location = new System.Drawing.Point(414, 111);
+            this.txtGenreDescripe.Location = new System.Drawing.Point(425, 113);
             this.txtGenreDescripe.Multiline = true;
             this.txtGenreDescripe.Name = "txtGenreDescripe";
             this.txtGenreDescripe.Size = new System.Drawing.Size(302, 89);
@@ -117,17 +117,17 @@
             // lblDescripe
             // 
             this.lblDescripe.AutoSize = true;
-            this.lblDescripe.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDescripe.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblDescripe.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblDescripe.Location = new System.Drawing.Point(305, 115);
             this.lblDescripe.Name = "lblDescripe";
-            this.lblDescripe.Size = new System.Drawing.Size(52, 19);
+            this.lblDescripe.Size = new System.Drawing.Size(58, 21);
             this.lblDescripe.TabIndex = 12;
             this.lblDescripe.Text = "Mô tả";
             // 
             // txtGenreName
             // 
-            this.txtGenreName.Location = new System.Drawing.Point(414, 67);
+            this.txtGenreName.Location = new System.Drawing.Point(425, 69);
             this.txtGenreName.Name = "txtGenreName";
             this.txtGenreName.Size = new System.Drawing.Size(302, 27);
             this.txtGenreName.TabIndex = 11;
@@ -135,17 +135,17 @@
             // lblGenreName
             // 
             this.lblGenreName.AutoSize = true;
-            this.lblGenreName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreName.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreName.Location = new System.Drawing.Point(305, 71);
             this.lblGenreName.Name = "lblGenreName";
-            this.lblGenreName.Size = new System.Drawing.Size(96, 19);
+            this.lblGenreName.Size = new System.Drawing.Size(110, 21);
             this.lblGenreName.TabIndex = 10;
             this.lblGenreName.Text = "Tên thể loại";
             // 
             // txtGenreID
             // 
-            this.txtGenreID.Location = new System.Drawing.Point(414, 23);
+            this.txtGenreID.Location = new System.Drawing.Point(425, 25);
             this.txtGenreID.Name = "txtGenreID";
             this.txtGenreID.Size = new System.Drawing.Size(302, 27);
             this.txtGenreID.TabIndex = 9;
@@ -153,11 +153,11 @@
             // lblGenreID
             // 
             this.lblGenreID.AutoSize = true;
-            this.lblGenreID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenreID.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGenreID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGenreID.Location = new System.Drawing.Point(305, 27);
             this.lblGenreID.Name = "lblGenreID";
-            this.lblGenreID.Size = new System.Drawing.Size(93, 19);
+            this.lblGenreID.Size = new System.Drawing.Size(104, 21);
             this.lblGenreID.TabIndex = 8;
             this.lblGenreID.Text = "Mã thể loại";
             // 

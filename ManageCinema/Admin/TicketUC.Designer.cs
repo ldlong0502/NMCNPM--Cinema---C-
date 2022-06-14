@@ -65,6 +65,7 @@
             // 
             // btnSeeAllShowTimes
             // 
+            this.btnSeeAllShowTimes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSeeAllShowTimes.Location = new System.Drawing.Point(860, 233);
             this.btnSeeAllShowTimes.Name = "btnSeeAllShowTimes";
             this.btnSeeAllShowTimes.Size = new System.Drawing.Size(125, 73);
@@ -75,6 +76,7 @@
             // 
             // btnSeeShowTimesNotCreatedTicket
             // 
+            this.btnSeeShowTimesNotCreatedTicket.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSeeShowTimesNotCreatedTicket.Location = new System.Drawing.Point(689, 233);
             this.btnSeeShowTimesNotCreatedTicket.Name = "btnSeeShowTimesNotCreatedTicket";
             this.btnSeeShowTimesNotCreatedTicket.Size = new System.Drawing.Size(125, 73);
@@ -85,6 +87,7 @@
             // 
             // btnSeeAllTicketByShowTimes
             // 
+            this.btnSeeAllTicketByShowTimes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSeeAllTicketByShowTimes.Location = new System.Drawing.Point(860, 133);
             this.btnSeeAllTicketByShowTimes.Name = "btnSeeAllTicketByShowTimes";
             this.btnSeeAllTicketByShowTimes.Size = new System.Drawing.Size(125, 69);
@@ -95,6 +98,7 @@
             // 
             // btnSeeTicketSelledByShowTimes
             // 
+            this.btnSeeTicketSelledByShowTimes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSeeTicketSelledByShowTimes.Location = new System.Drawing.Point(689, 133);
             this.btnSeeTicketSelledByShowTimes.Name = "btnSeeTicketSelledByShowTimes";
             this.btnSeeTicketSelledByShowTimes.Size = new System.Drawing.Size(125, 69);
@@ -105,6 +109,7 @@
             // 
             // btnDeleteTicketByShowTimes
             // 
+            this.btnDeleteTicketByShowTimes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDeleteTicketByShowTimes.Location = new System.Drawing.Point(860, 19);
             this.btnDeleteTicketByShowTimes.Name = "btnDeleteTicketByShowTimes";
             this.btnDeleteTicketByShowTimes.Size = new System.Drawing.Size(125, 78);
@@ -115,6 +120,7 @@
             // 
             // btnAutoAddTicketByShowTimes
             // 
+            this.btnAutoAddTicketByShowTimes.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAutoAddTicketByShowTimes.Location = new System.Drawing.Point(689, 19);
             this.btnAutoAddTicketByShowTimes.Name = "btnAutoAddTicketByShowTimes";
             this.btnAutoAddTicketByShowTimes.Size = new System.Drawing.Size(125, 78);

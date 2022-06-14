@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountUser));
             this.btnSearchAccount = new System.Windows.Forms.PictureBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.nudAccountType = new System.Windows.Forms.NumericUpDown();
@@ -55,11 +54,11 @@
             // btnSearchAccount
             // 
             this.btnSearchAccount.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSearchAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchAccount.Image")));
-            this.btnSearchAccount.Location = new System.Drawing.Point(1009, 202);
+            this.btnSearchAccount.Image = global::ManageCinema.Properties.Resources.search;
+            this.btnSearchAccount.Location = new System.Drawing.Point(1036, 203);
             this.btnSearchAccount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSearchAccount.Name = "btnSearchAccount";
-            this.btnSearchAccount.Size = new System.Drawing.Size(23, 31);
+            this.btnSearchAccount.Size = new System.Drawing.Size(28, 31);
             this.btnSearchAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnSearchAccount.TabIndex = 20;
             this.btnSearchAccount.TabStop = false;
@@ -69,7 +68,7 @@
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Location = new System.Drawing.Point(766, 197);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -83,19 +82,20 @@
             // nudAccountType
             // 
             this.nudAccountType.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudAccountType.Location = new System.Drawing.Point(429, 36);
+            this.nudAccountType.Location = new System.Drawing.Point(428, 37);
             this.nudAccountType.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nudAccountType.Name = "nudAccountType";
             this.nudAccountType.Size = new System.Drawing.Size(165, 30);
             this.nudAccountType.TabIndex = 2;
+            this.nudAccountType.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(21, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 23);
+            this.label2.Size = new System.Drawing.Size(74, 24);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã NV:";
             // 
@@ -112,20 +112,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(321, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 23);
+            this.label4.Size = new System.Drawing.Size(84, 24);
             this.label4.TabIndex = 0;
             this.label4.Text = "Loại TK:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(21, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
+            this.label1.Size = new System.Drawing.Size(113, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username: ";
             // 
@@ -133,7 +133,7 @@
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(653, 197);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -148,7 +148,7 @@
             // 
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.Location = new System.Drawing.Point(534, 197);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -163,7 +163,7 @@
             // 
             this.btnShow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShow.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnShow.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnShow.ForeColor = System.Drawing.Color.White;
             this.btnShow.Location = new System.Drawing.Point(225, 197);
             this.btnShow.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -177,7 +177,7 @@
             // txtStaffName_Account
             // 
             this.txtStaffName_Account.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.txtStaffName_Account.Location = new System.Drawing.Point(429, 93);
+            this.txtStaffName_Account.Location = new System.Drawing.Point(428, 95);
             this.txtStaffName_Account.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtStaffName_Account.Name = "txtStaffName_Account";
             this.txtStaffName_Account.Size = new System.Drawing.Size(164, 30);
@@ -188,7 +188,7 @@
             this.txtSearchAccount.Location = new System.Drawing.Point(887, 206);
             this.txtSearchAccount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearchAccount.Name = "txtSearchAccount";
-            this.txtSearchAccount.Size = new System.Drawing.Size(114, 27);
+            this.txtSearchAccount.Size = new System.Drawing.Size(143, 27);
             this.txtSearchAccount.TabIndex = 19;
             // 
             // groupBox1
@@ -201,9 +201,9 @@
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(225, 36);
+            this.groupBox1.Location = new System.Drawing.Point(225, 21);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -215,20 +215,20 @@
             // cboStaffID_Account
             // 
             this.cboStaffID_Account.FormattingEnabled = true;
-            this.cboStaffID_Account.Location = new System.Drawing.Point(128, 101);
+            this.cboStaffID_Account.Location = new System.Drawing.Point(128, 93);
             this.cboStaffID_Account.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboStaffID_Account.Name = "cboStaffID_Account";
-            this.cboStaffID_Account.Size = new System.Drawing.Size(164, 31);
+            this.cboStaffID_Account.Size = new System.Drawing.Size(164, 32);
             this.cboStaffID_Account.TabIndex = 21;
             this.cboStaffID_Account.SelectedIndexChanged += new System.EventHandler(this.cboStaffID_Account_SelectedIndexChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.Location = new System.Drawing.Point(321, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 23);
+            this.label5.Size = new System.Drawing.Size(82, 24);
             this.label5.TabIndex = 0;
             this.label5.Text = "Tên NV:";
             // 
@@ -240,19 +240,19 @@
             this.dtgvAccount.Name = "dtgvAccount";
             this.dtgvAccount.RowHeadersWidth = 51;
             this.dtgvAccount.RowTemplate.Height = 25;
-            this.dtgvAccount.Size = new System.Drawing.Size(807, 407);
+            this.dtgvAccount.Size = new System.Drawing.Size(839, 407);
             this.dtgvAccount.TabIndex = 13;
             // 
             // btnResetPass
             // 
             this.btnResetPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnResetPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnResetPass.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnResetPass.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnResetPass.ForeColor = System.Drawing.Color.White;
-            this.btnResetPass.Location = new System.Drawing.Point(887, 130);
+            this.btnResetPass.Location = new System.Drawing.Point(887, 141);
             this.btnResetPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnResetPass.Name = "btnResetPass";
-            this.btnResetPass.Size = new System.Drawing.Size(144, 37);
+            this.btnResetPass.Size = new System.Drawing.Size(173, 37);
             this.btnResetPass.TabIndex = 15;
             this.btnResetPass.Text = "Reset mật khẩu";
             this.btnResetPass.UseVisualStyleBackColor = false;
